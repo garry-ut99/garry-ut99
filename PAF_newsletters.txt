@@ -1,0 +1,2055 @@
+[Adblock Plus 2.0]
+! Title: 🇵🇱 Polskie Filtry Elementów Irytujących - Newslettery
+! Polish Annoyance Filters - Newsletters
+! Codename: Newsletters
+! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
+! Last modified: Sat, 23 Dec 2023, 16:30 UTC+01:00
+! Version: 2023.12.23.0
+! Expires: 3 days
+! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
+! Zgłoszenia:
+!   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
+!   GitHub => https://github.com/FiltersHeroes/PolishAnnoyanceFilters/issues
+! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
+! Homepage: https://polishannoyancefilters.netlify.app
+! Maintainer: Filters Heroes
+! Aktualizacja: sob, 23 gru 2023, 16:30 UTC+01:00
+!
+!
+!
+! Specyficzne filtry
+||4prm.pl/*/4p_newsletter.jpg
+||a-ajurweda.pl/images/layout/ajurweda/newsletter_ajurweda.png
+||app2.salesmanago.pl/cf/*/zapis_na_newsletter_$subdocument
+||biuroprasowe.pl/userfiles/_CMS_/EPR3/baner_newsletter.jpg
+||biuroprasowe.pl/userfiles/_CMS_/EPR/biuroprasowe-reklama.jpg
+||carry.pl//themes/default/img/newsletter1.png
+||dobremiejsce.org/wp-content/themes/dobremiejsce_org_pds/images/s2-980.jpg
+||duckduckgo.com/assets/icons/footer/newsletter.svg$image
+||forms.freshmail.io^$subdocument,domain=1242.eu|ita.tools|pl|pulsembed.eu
+||genway.pl/images/frontend/theme/whitegen/social/newsletter.png
+||i.perspektywy.net/pages/jhovngq2lj/banners/H41N57ow3HyikR9iXCxK4vKmEyIGFXSVPZHc9ABq.jpeg$domain=perspektywy.pl
+||klinkierbud.pl/css/img/baner_newsletter.jpg
+||obi.pl/images/footer/newsletter.jpg
+||oknoserwis.pl/img/newsletter.gif
+||perspektywy.pl/portal/images/banners/newsletter-akademicki-zapis.jpg
+||pulsmedycyny.pl/static/img/newsletter.jpg
+||rabat-detal.pl/pliki_konkurs/box_newsletter.jpg
+||ratownicy24.pl/wp-content/themes/naratunek/img/newsletter.jpg
+||rynekzdrowia.pl/images/socialBox/mail-a.png
+||salonydenon.pl/images/footer-newsletter.png
+||salonydenon.pl/modules/tvcmssingleblock/views/img/newsletter
+||siati.cal24.pl/newsletter$domain=bioindygo.pl
+||solnemiasto.eu/wp-content/uploads/2014/08/newsletter.png
+||static.parastorage.com/services/shoutout-get-subscriber/*/modules/widget/main.html
+||szukam-ksiazki.pl/image/newsletter.png
+||targiexpoproperty.pl/reklama-mini
+||telewizja-cyfrowa.com/wp-content/uploads/2016/01/newsletter.png
+||tomgast.pl/media/wysiwyg/baner_koszty_wysylik_newsletter2_prawy.jpg
+||tygodnik-rolniczy.pl/static/tpr/images/newsletter.png
+||upolujebooka.pl/_visual/_b/b_newsletter.jpg
+||uslugiekosystemow.pl/wp-content/themes/ueko/img/ikona_newsletter.png
+||www.eventim.pl/obj/media/PL-eventim/teaser//pl/marketingTeaser/newsletter-new-2016.jpg
+||www.gofin.pl/images/newslettery_swl.png
+||www.horecabc.pl/wp-content/uploads/HBC-grupa-na-FB2.jpg
+||www.ksiegarnia.beck.pl/media/bannerslider//n/e/newsletter-sg.png$image
+||www.pulshr.pl/images/newsletter/newsletter.png
+||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
+||zadowolenie.pl/media/cache/*/zdw-newsletter-
+||zooplus.pl/magazyn/wp-content/uploads/20*/*/*Newsletter_Promotion_$image
+!dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .navi > a:first-of-type
+!dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .panes > .one.active:first-child
+2max.pl###footer-container-first
+3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
+3i-store.com,addons.prestashop.com##.newsletter-subscribe
+4adstudio.pl,rudeiczarne.pl##.widget_mc4wp_form_widget
+4kdownload.com##.footer__section > .footer__col--updates
+4kom.pl##.newsletter-custom
+4lapki.eu,annalovestravelspl.wordpress.com,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,podkop.com,pskrk.com,tabloidonline.blog,techno-senior.com,zabieganamama.com,zpamietnikabuntownika.wordpress.com##.jetpack_subscription_widget
+4spaw.pl,bydgoszczak.pl,kaliszak.pl,katowiczak.pl,krakusik.pl,pro-jex.pl##.mini-newsletter
+4trucks.pl##.sInfo > .m209.box
+9c.com.pl##footer .col-md-auto.col-12
+9design.pl##.top_newsletter
+24hurt.pl##.row > .col-md-12
+24pr.pl##center > input, td:nth-of-type(2) > input, #carrington-subscribe > h3
+50style.pl##.footer-item-wide
+85.128.114.72,gkn.pl###lewa > .box_newsletter
+99rent.pl###block-block-7
+100pompek.pl,biegaj40minut.pl,miesniebrzucha.pl,miesnienog.pl,podciaganie.pl,treningaerobowy.pl,treningrozciagania.pl###freshmail-subscription-form
+300gospodarka.pl,ccnews.pl,faktyozywnosci.pl###custom_html-5
+360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
+365dowolnosci.pl###getall_widget-3
+abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
+ac.com.pl##.form-group
+action.com##footer > section:first-child > div
+active.fibrain.pl##.newsletterWithFacebook
+active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
+activejet.pl##.newsletterBanner
+adapter.pl##.main-top-wrapper > .container > h2
+addnature.pl,bikester.pl##.newsletterModule
+adequate.pl##.hidden-xs.col-sm-4.col-md-4.col-lg-4
+adguard.com##.annoyance.email-collector
+adidas.pl,reebok.pl##div[class^="footer_newsletter___"]
+administrator24.info###bNewsl
+adra.pl##.elementor-element-30e54b2
+adwokat-gostkowski.pl###footer_news
+aeg-powertools.eu##.aeg-newsletter-subscribe
+aerowatch.pl,glycine.pl###bottom-newsletter-wrapper
+agagrzelak.pl##.ps-emailsubscription-block
+ageno.pl##.AgenoNewsletter
+agnieszkawielobob.pl##.et_bloom_below_post
+agriaffaires.pl###js-newsletterBlock
+agrieko.pl##.footer_NewsletterBox
+agrodoradca24.pl##.newsletter-online
+agromat.pl##.column-double.content > .flex
+agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
+agroprofil.pl##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_185.vc_column
+agrosimex.pl##.p0.tablet-column.col-sm-4.col-xs-12
+agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
+ahe.lodz.pl###company-newsletter-column
+airstop.pl###snippet-newsletterSubscription-newsletterSubscription
+ajk-opakowania.eu,linktransport.eu,mierzeja.com###newsletter
+akademia-hotelarza.pl##div.col-xs-12.col-sm-12.col-md-5.col-lg-5:nth-of-type(3)
+akademiawitalnosci.pl###text-2 > .textwidget, #text-2 > .title
+akademicka.pl###footer-one #freshMailPopUp__background
+akardo.pl,asport.pl,eherbata.pl,kaszubi.pl,wsb.edu.pl##.newsletter-column
+aksiazka.pl##.stopkanewsletter
+al.to,combat.pl,x-kom.pl###newsletterBox
+al.to,combat.pl,x-kom.pl##.box-newsletterbf
+alawar.pl##div.b-footer div.b-subscribe
+albatros.pl##.alb-newsletter
+albo24.pl##footer .call-to-action .card
+aldi.pl##.mod-newsletter-popup
+aldi.pl##.mod-newsletter-teaser
+aldrux.pl,qdecor.pl##.box:nth-of-type(4)
+ale.pl###newsletter_block_top
+alebuty.com.pl###newsletter-wrap
+aledobre.pl##.footerColumns > .row > div.col-sm-4.col-md-15:nth-of-type(6)
+aleleki.pl##.footer_section_2 > div > .row > div:first-of-type
+aleokulary.com###f_newsletters
+alesoczewki.com##.newsletter_sec
+alfasan.pl###nws
+alibiuro.pl##.elementor-element-9b3b2b8
+aliexpress.com###alert-subscribe-form
+aligoo.pl###footer > .col-sm-6
+aliholik.pl###yikes_easy_mc_widget-5
+alkalicznystylzycia.com,konstantinkanin.com,littletownshoes.com,przedsiebiorcza.com##[id^="mc4wp_form_widget"].widget_mc4wp_form_widget
+alkoholeswiata24.pl,proxer.com.pl,swiatzlotasklep.pl###box_subReqForm
+alkoholeswiata.com##div.span6:nth-of-type(2) > .row > div.span3:nth-of-type(2) > .panel-default.panel
+all-bielizna.pl###slide_panel187
+almania.pl,glossyme.eu##.shb-newsletter-widget-1
+alsen.pl,kakto.pl##.m-footer_nsl
+aluprof.eu##.sidebar a[href="https://aluprof.eu/newsletter"]
+amazone.pl##.col-md-offset-3.col-md-4.col-sm-6
+amberexpo.pl##div.slide-out-div:nth-of-type(5) > .handle_fb
+amc.waw.pl##.footer h3:nth-of-type(3)
+amico.market###Newsletter
+ammoffice.pl##.icon-mail2
+amparts24.pl###i258
+amrest.eu###block-simplenews-1
+amso.pl###f_newsletter .f_form
+amw.com.pl##.footer-top__newsletter.footer-top__box
+analizy.pl##.footerFormWrapper
+analizy.pl##.nl-wrapper
+andrzejgrzyb.eu,todoandroid.es##.widget_newsletterwidget
+andzela.com##.newsletter_block_right
+anmur.eu##.mod-newsletter-2.newsletter
+anna-urbanska.pl,londonshoes.pl###text-7
+anna-urbanska.pl,moneygrabbing.co.uk##.ml-block-form
+annapoplawska.pl##.newsletter_in_footer
+anotherdesign.pl###nw
+answear.com###bottomNewsletter
+answear.com##.Newsletter__newsletterContainer__nF1vk
+antyksobieski.pl###social a[href="/newsletter/add"]
+antykwariatlibra.pl##.cms_newsletter_form
+antyweb.pl##.email.btn-tools
+apartamentywkarpaczu.eu##.site-footer__email
+apetete.pl##.footer__block__payment.footer__block > .footer_container
+apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,dealz.pl,dlabiura24.pl,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,obuwiestyl.pl,sklep.dalimex.pl,topsecret.pl,vidaxl.pl,znak.com.pl##.newsletter
+apollo.pl##.newsletter-block-container
+apptoyou.pl##.row.flex.bubble-r-container.CustomElement.bubble-element > .row.flex.bubble-r-container.Group.bubble-element > div.column.flex.bubble-r-container.Group.bubble-element:nth-of-type(2) > .column.flex.bubble-r-container.Group.bubble-element
+apshop24.eu,paperlovers.pl###newsletter-bar
+apteka-niezapominajka.pl##.tnp-widget.tnp > a[href$="/Newsletter_akcept/"]
+aptekaolmed.pl##.py-md-5.py-3.row > .col-lg-8.col-12
+apteline.pl##.footer__connect-newsletter
+arbiton.com,indigo-nails.com,korbo.eu,krasnik.eu##.newsletter-section
+architektura.info###PopupSignupForm_0
+archiup.com##footer#footer.footer > div:first-child > div > div > div:nth-child(4) > div:nth-child(2)
+ardant.pl##.Newsletter_footer
+artmuseum.pl##.follow > div
+arystoteles.pl###dozapi
+ashampoo.com###service_letter_form
+asics.com##.footer > :nth-child(n+3):nth-child(-n+5)
+asta24.pl##.columns.small-12.medium-6.large-3:nth-of-type(4)
+astor.com.pl##.footer_4 .col-md-5.col-sm-6
+astoreo.pl###newsletterFormgRecaptcha
+astratex.pl###MailNewsForm
+atakto.pl##.sidebar-newsletter-wrapper
+atlastours.pl##div[style*="newsletter.png"]
+atrakcjenaimprezy.pl,kom-ster.pl,mebline.co.uk,mebline.nl,mebline.pl##.moduletable_newsletter
+atrexpress.com.pl##.nlsection
+atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,promenada.com##section.pop-up > button.btn-pop-up[data-toggle="modal"]
+atriumsystem.eu##.box-newsletter.box
+attipas.pl##div.col-sm-6.col-md-3:nth-of-type(4) > .widget
+auchan.pl##a[href="/newsletter/ref/box"]
+auchanhetmanska.pl##.o-Footer-colNews > :nth-child(-n+2)
+auchanhetmanska.pl##div[class*="trends" i] center div[style*="border"]
+audio.com.pl##.sticky-newsletter
+audytel.pl,eko-ue.pl##.fixed-newsletter
+australiangoldshop.pl###formNewsletterFooter > div:nth-child(3)
+austria.info##.sonata\.block\.service\.newsletter.u-section
+autodoc.pl##.subscribe_us
+autogaleria.pl##.col-lg-5.col-md-5.col-sm-6.col-xs-12
+automatyka.pl###newsletterSideBox
+autonaminuty.org##.elementor-widget-wp-widget-newsletterwidget
+autopart.pl##.footer-top .form-cover
+ava-kosmetyki.pl##footer .row > .py--gutter:first-child
+avans.pl##.b-main_newsletter
+avaro.pl##.smsapi-sidetitle
+avlab.pl##.elementor-element-436a5fa, .elementor-element-beacb6d
+awa24.pl##div[class^="stopka"] > div[class^="newsletter"]
+azbudownictwo.com,futuryx.eu,giorre.com,jogapiekna.com,media-tech.eu,produkty.tv,reserved.com,sklep.ekotechnologia.eu,x-lander.com##.footer-newsletter
+azdoc.pl##div.col-md-6.p-4:nth-of-type(2)
+azjatyckibazar.com##.site-footer__item-inner--newsletter
+azzun.pl##.site-footer__ezine-hld
+babyboom.pl##.zapisz-newsletter
+babysensepolska.pl,sklep.sigma-max.pl,wierzynek.pl##.newsletter2-wrapper
+balladine.com,developer.mozilla.org,disqus.com,portalodo.com,unisono.eu##.newsletter-box
+bandi.pl###stopka_nwslt
+bandi.pl##.stopka .jednatrzecia > .bloczek > strong
+bankmillennium.pl###buttonSelectorChat
+bankobranie.blogspot.com###topNewsletter
+baramundi.pl##.footer-content-1 > .inner
+barki-nicols.pl##.footer__navigation__newsletter-title, .footer__navigation__newsletter-text, .footer__navigation__newsletter-form
+bartekwpodrozy.pl##.elementor-element-67c43fd
+bartoszkrawczykdemczuk.pl###tve_editor
+basenymineralne.pl##.foo-box-mid
+baseuspolska.pl##.newsletter-home
+bass-sklep.pl###box-5
+batorygdynia.com.pl##footer .menu_bottom1.row > .a_right
+bbhomeonline.pl##.footer_links_newsletter
+beautikon.com,imready.eu,shipgratis.eu,shop.albione.eu##.newsletter-wrapper
+beautysupply.pl###columns .freshmail-wrapper.row
+bebeconcept.pl##.newsletter-widget-7
+befado.pl##.kt_widget_newsletter
+befado.pl,wnp.pl##.mail
+beincrypto.pl##.footer-subscribe-form
+bellemaison.pl##.em-newsletter
+belmeb.pl##.newsletter_content
+berlitz.com###max-newsletter__form
+beslow.pl##.ulp-layer
+bestbody.com.pl###footer-top
+bestcena.pl##div[class^="newsletter-box"]
+bestprezenty.pl###snippet-newsletter-newsletter
+bezgluten.pl###footer > div:first-of-type > div:first-of-type
+bezmiesnymiesny.pl,clover.net.pl,ovczarnia.pl,swiatobuwia.com,wearethecoffee.com##div[class^="shb-newsletter-widget"]
+bezpieczenstwo.chorzow.eu##.newsletter.col-sm-12
+bi1.pl##.home__newsletter
+bi1.pl,e-sporting.pl,javappa.com,obserwatorfinansowy.pl,sephora.pl###newsletterForm
+biblioteka.gliwice.pl###fm_form_2 > .form_container > .freshmail_form_2.form_subscribe
+biblioteki.org##.sidebar > form
+biedronka.pl##.ico-zapisz-newslletter
+biedronka.pl##.newsletter-tile
+biegambolubie.com.pl##.cp-info-bar-wrapper
+bierhalle.pl###Mod89
+bigstar.pl##.ma-home-newsletter
+bigstar.pl##footer > section ma-accordion-item:nth-of-type(4)
+bigstar.pl,politykazdrowotna.com###newsletter-section
+bikeinn.com,dressinn.com,goalinn.com,kidinn.com,motardinn.com,outletinn.com,runnerinn.com,scubastore.com,smashinn.com,snowinn.com,swiminn.com,techinn.com,traininn.com,trekkinn.com,waveinn.com,xtremeinn.com##.newsFooter
+bileteria-online.pl,pkspolonus.pl##.mode_newsletter
+bilscy.info,ogrodniczy.com,sarenka.eu##.footer-newsletter-box
+bioenergiadlaregionu.eu##.pa-newsletter
+bioieko.pl,chinytolubie.pl,dietetycy.org.pl,effective-english.pl,miastons.pl,przewodnikmp.pl,socialpress.pl###fm_form_1
+biolindo.pl,ecco-verde.pl##.footer_newsletter--form
+bissole.pl##a[href="#newsletter"]
+bit-info.pl##.newsletters_block
+biurfan.pl###newsletter-wide
+biuronet.com##.bottom-subscription-form
+biuroprasowe.porta.com.pl##.newsletter-home_page
+biurowezakupy24.pl,szkolnezakupy.pl###mod-newsletter
+bizay.pl##div.col-xs-3 > .footer-sub-title
+bizay.pl##div.col-xs-3 > .no-gutter.row
+biznes-wprost-pl.cdn.ampproject.org,biznes.wprost.pl##.art-newsletter
+biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
+blik.com,emaillabs.io##.newsletter-iframe
+blip.pl###salesmanagoIframe
+blip.pl,chcemybycrodzicami.pl##.front-newsletter
+blog-daneosobowe.pl,ekorekta24.pl,labosport.pl,niezlasztuka.net,sprawyzdrowia.pl##.nksub_hidden .nks_cc_trigger_tabs
+blog.gdaq.pl,doktorania.pl,faktyozywnosci.pl,haart.pl,kryptopomocnik.pl,magnapolonia.org,naukatolubie.pl,obserwatorlogistyczny.pl,ostatniatawerna.pl,refreszing.pl,stomatologianews.pl###custom_html-2
+blog.mozilla.org,legal-base.co.uk,olesnica24.com,zamek-krolewski.pl###newsletter_form
+blog.spotawheel.pl,oknarolety.com###subscribe-form
+blogmtb.pl##.kalais-newsletter
+bluecity.pl##.newsletter-short
+bluerank.pl##.shown.exit
+bmc-switzerland.pl##div.footer-nav-container:nth-of-type(4)
+bmwsklep.pl##.subscribero
+bochniaisol.pl,digi-tv.pl,podrozezantena.pl,satkurier.pl,solarkurier.pl###newsletterMsg
+bodypak.pl###pts-newsletter
+boguslaw.io##.formkit-sticky-bar
+bold.net.pl##.fm-newsletter
+bolix.pl##.homepage-newsletter-box
+bombkisklep.com##.newsletter-inner
+bonprix.pl##.nl-benefits.row
+bonprix.pl##a[href="/serwis/newsletter"], .contrast.container-fluid > .container > .row > .col-xs-12.col-sm-6
+bonvoyage.pl##.box_newsletter
+booking.com##.emk_footer_update
+booking.com##.newsletter_subscribe
+borcas.eu##div.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(5)
+born2be.pl##[href="/newsletter/sign-in"]
+born86.pl##.nadstopa2
+borniak.pl##.mgz-element-newsletter_form
+bosch-professional.com##.m-newsletter_signup-a
+braclowiecka.pl##div.widget:nth-of-type(3)
+bravebeaver.pl,semprewithlove.pl,smartbake.pl###text-5
+brita.pl##.validation.form-group
+brownells.pl##.ic-popupLinkNewsletter
+brw.com.pl,brw.pl##.blok-newsletter
+brymorex.pl,sklep.enger.pl##.newsletter-ui
+brytyjka.pl###gsNewsbox
+bto.pl###StopkaAktywnaNewsletter
+budujemydom.pl###newsBoxLeft
+budujemydom.pl,czasnawnetrze.pl,zielonyogrodek.pl###newsletterBoxLeft
+bulldogjob.pl##.spop-container
+busiarze.com.pl###alo-easymail-widget-3
+business.link###Form_SubscribeForm
+businessinsider.com.pl##.article_newsletter
+businesstraveller.pl##.widget:nth-of-type(2) > h4
+buslapidus.pl,pasja-informatyki.pl##.widget_1
+butyjana.pl##.bjNewsletterText
+butyraj.pl##.hidden-phone.top_toplayer
+bydgoszcz.com,ct.jaworzno.pl,damitv.pl,e-widuchowa.pl,echotygodnik.info,kociewiak.pl,narew.info,pzl24.pl,telewizjazary.pl,tvobiektyw.pl,tvsudecka.pl,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:first-of-type
+byinsomnia.com,mniammniam.com,opakowania24.eu,pl,r-gol.com,rylko.com,stoprocent.com##.newsletter-container
+bytom.com.pl##[translate="main.footer.newsletter.header"]
+c-and-a.com##.footer__mail-form
+c-and-a.com##.util-visible-sm.util-add-margin-bottom-full.row
+cafago.com,tomtop.com##.m_subscribe_input
+cafessima.pl###block-23
+calisia.pl##footer .container > .row > div:nth-of-type(4)
+canon.pl##.pl-bg--gray-lightest.pl-bg.pl-spacer--in--medium.pl-spacer--cut-h.pl-spacer--cut-bottom.pl-spacer.pl-anchor-tabs--section
+caritaspoznan.pl##.subReqArea.contentItem
+carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(4)
+carrefour.pl##.push-newsletter
+carry.pl,tani-laptop.com###block_newsletter
+cashless.pl###footer footer > div > div:nth-child(5)
+cashless.pl#?#header ~ div.container > div:-abp-has(> h2 ~ div.text-newsletter)
+castorama.pl###newsletterLabel
+castorama.pl##.newsletter-fold
+cba.pl##.links > div > div:nth-of-type(4)
+ccpartners.pl##.nl
+cebit.pl##a[href="http://net.cebit.pl/newsletter/"]
+centos.com.pl##form:first-of-type
+centrum-marino.com###stay-connected, #footer-social-icons
+centrum-terapii.pl###sml_subscribe_widget
+centrumdialogu.com##.clearfix.bd-no-margins.hidden-xs.bd-layoutbox-9
+centrumhandlowerobi.pl##.footer-container div.col-xxs:nth-of-type(4)
+centruminformacji.tvp.pl##.extraInfoNews
+centrumpapieru.pl##.cp_footer__newsletter
+centrumprasowe.pap.pl##a[href="/cp/pl/newsletter/"]
+centrumrolnictwa.pl##.elementor-element-2870e1a8
+centrumxp.pl##.foot-nav__right
+cersanit.com.pl###footer-page .js-medium-col-1.medium-4.small-6.columns
+cezal.lublin.pl###footgroup3
+cezar.eu##.container > div.col50.kolumna:nth-of-type(2)
+cgm.pl,forsal.pl,horsklep.pl,sklep.olekmotocykle.pl##.footerNewsletter
+channel9.msdn.com##.mouseClick.mediumIcon.email
+chatapolska.pl##.yellow-bg.no-padding.col-xs-12
+chataskrzata.eu,genesis-zone.com,otwarte.eu##:not(#newsletter-overlay) #newsletter-box
+chcemybycrodzicami.pl##.single-post-newsletter-wrap
+checiny.pl###div_newsletter
+chillglobal.pl###tmpl-content-sortable_1196
+chlodnictwoiklimatyzacja.pl###left-in > .moduletable:first-of-type
+chocholowskietermy.pl##.wdform_section
+chocolissimo.pl##a[href="javascript:showNewsletterLayer();"]
+chodnikliteracki.pl##a[href*="/newsletter/"] > img[src$="/newsletter.png"]
+choinkowo.pl##.shb-newsletter-widget-5
+cholewinski.com##.cho-subscribe
+ciekawostkihistoryczne.pl##.footer-fixed
+citroen.pl##.column_50.columns:first-of-type
+cityboard.pl,euh-e.edu.pl###sp-bottom3
+ckmuza.eu###wysija-3
+ckr.pl##.sliding-newsletter
+ckzamek.pl##.footer__newsletter-btn
+claresa.pl###box_custom75
+claudia.pl##.text-center.sidebar-box
+clevo-computer.com##.column--newsletter
+clinic4car.pl###add_to_newslettter_form
+clinic4car.pl##footer .row > div:first-child
+cobi.pl##.block-DefaultSubskrypcja
+coccodrillo.eu###homeNewsletter, .newsletterWrap
+codojedzenia.pl,pushpushgo.com##.newsletter-post
+combat.pl##footer.page-footer > .block-footer-top
+commonvoice.mozilla.org##.subscribe-newsletter
+company.pl##div.mx-auto.col-md:nth-of-type(2)
+comparic.pl,wiskitki.org###icegram_messages_container
+competitiveskills.com##.sc_contact_bg_color.sc_section_overlay
+comtrade.pl,topfish.pl##.n56467_container
+confero.pl##.confero_newsletter_form
+consumer.huawei.com##.title + .subscribe
+controlling.info.pl##.newletter
+corona-fishing.pl###glowna-newsletter
+cortland.pl##.letter
+costa.pl###wrapper-newsletter
+cottonina.pl##.in-viewport.t-alt.relative
+cozaile.pl##.c-guide-newsletter
+crocs.pl##.footer-email-signup
+crolove.pl##div.footer-container .widget_mc4wp_form_widget.widget
+cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
+crystal-albums.pl,monikahonory.pl##.ml-subscribe-form.ml-form-embedContainer
+ctek-ladowarki.pl###bestnewsletterbg
+ctpartners.pl##.ftresc2
+cudmoda.pl##.ps-emailsubscription-block > :nth-child(-n+2)
+cumulus.pl,lan.sklep.pl,um.jaslo.pl##.Newsletter
+cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.header-bottom-newsletter
+cybsecurity.org,duzekubki.pl###mc4wp_form_widget-2
+cybsecurity.org,itcontent.eu##[id^="mc4wp-form"].mc4wp-form
+cyfrowynauczyciel.pl###mab-widget-2
+cyfrowyszpital.pl##.widget-area > .theiaStickySidebar > div:nth-of-type(3):nth-child(4)
+czasdzieci.pl###id_boxNews
+czasfinansow.pl##.site-footer > .row > div:nth-of-type(3)
+czasnawnetrze.pl###contentRight > div.module:nth-of-type(4)
+czasnawnetrze.pl##div[id^="menu"][class^="menu"] > div[class^="newsletter-"], div[id^="menu"][class^="menu"] > div[class^="newsletter-"] + .menu-left-border
+czaszabawy.pl,sklep.charaktery.eu,sklep.psychologia.eu,smieszneprezenty.com.pl###skNewsletterPopupFooter
+czechtourism.com##.newsletter.pageSeparator, .newsletterSubscription
+czerwionka-leszczyny.pl##.row > div.col-sm-3:nth-of-type(2)
+czesciauto24.pl##.footer-subscr
+czescirolnicze.eu,shop.techmot.com.pl###newsletterPanel
+czosnow.pl,fotelik.info,petanque.pl##.subskrypcja
+czytamyetykiety.pl##.footer-ebook.component
+czyztak.pl##.footer > div.row > .columns > h2.dot-header
+dachyb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl###mailing
+dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
+daemon-tools.cc###send-mail
+dagmara.pl###links_footer_3
+dajar.pl##div.css-770vd2:nth-of-type(12)
+danko.pl##.nl-holder
+darymex.pl##.wce_footerinfo
+deccoria.pl##.dc-action-regiser-newsletter
+decoliving.pl,intymna.pl,ohso.pl##div.zwin.col-sm-3.footer-links.footer-widget:nth-of-type(3)
+defence24.pl,infosecurity24.pl,space24.pl##.newsletter-module__inner
+dekea.pl##div.mb40.mt40.row:nth-of-type(5) > .bg-grey.p20.col-md-4
+delis.pl,diamir.sklep.pl,telefony-gdansk.pl,wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
+delphiautoparts.com##form .subscribe-form
+demagog.org.pl##footer .dg-newsletter
+demagog.org.pl##section .column .dg-newsletter
+deon.pl###region4 > .clear:nth-of-type(6), #region12 > .clear:first-of-type
+deon.pl##.footer-right__newsletter
+deon.pl##.sl > li:nth-of-type(5)
+designconcept.pl###nl-popup, #Blok-3
+devcode.pl##.et_bloom_optin
+device.pl##.subscribe-to-newsletter
+deviceranking.pl##.subscr-widget
+devmentor.pl##.mailerlite-form
+devstyle.pl###post-2135 > .ck_inline.ck_form_container
+devstyle.pl##li.widget_text.col-4.widget:nth-of-type(3)
+deweloper-interes.pl,niebieskimigdal.pl###text-2
+dewocjonalia-niedziela.pl###footer_boxs > li:nth-of-type(4)
+dexpol.com##.stopka2_center > div.box_info:first-of-type
+di.com.pl##.footcol:nth-of-type(5) > form, .footcol:nth-of-type(5) > p, .footcol:nth-of-type(5) > .footnag:first-of-type
+diag.pl##.diag-newsletter
+diag.pl##.last > form, .last.col-md-3 > h3
+dialog.mazovia.pl,galeriabronowice.pl##.news
+diamante-wear.com##.footer__blocks__item--newsletter
+digikids.pl##.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(3)
+dimedic.eu,listymikolaja.pl##.r-newsletter
+direct-sender.com###section-8 > .container > .row > div.col-lg-6:first-of-type
+dji-ars.pl###newsletter-bottom-banner
+dlabydgoszczy.pl##footer > div > .row > .form-inline
+dlabydgoszczy.pl##footer > div > .row > .text-left:nth-of-type(5) > h4
+dlabystrzakow.pl##.footer-form-newsletter
+dlh.pl##.footer_left_newsletter
+dobiegania.pl##.superMailing
+dobrarelacja.pl##.elementor-element-783e75a2
+dobre-driny.pl###newsletter > div
+dobredomy.pl###footerForm
+dobremiejsce.org##.popupaoc-button
+dobreprogramy.pl###phContent_SubscriptionsControl_lnkNewsletter
+dobry-kon.pl##.col-sm-3:nth-of-type(4)
+dobrzemieszkaj.pl##.box-22
+dojczland.info##.mo-has-email.mo-optin-form-bar.moOptinForm
+dojczland.info##.widget_mailerlite_widget
+dolinski.pl##div.ty-grid.span8:first-of-type
+domar.pl##.footer-newsletter__section
+domena.pl##.section-newsletter-front div[class*="green"]
+dominospizza.pl##.m-Newsletter__formContainer
+domisad.pl###wrap-newsletter
+domix-agro.pl,emulus.pl,maleomi.pl,manufakturastylu.pl,omasz.pl,zygzaksnow.pl###blocknewsletter
+domjozefa.tv##.widget_wysija.footer-widget.widget.col-sm-3.col-md-3
+domnowoczesny.com##.sticked-newsletter
+domodi.pl##.dm-box--newsletter, .dm-footer-newsletter
+domodi.pl##.dm-footer-content .dm-2of3.dm-gcf__item.dm-footer-section
+domodi.pl##.dml-footer-newsletter
+dompi.website.pl,e-stargard.pl,ogloszenia24.info,ombre.pl###newsletter_section
+dopestore.pl,jedzpij.pl##.bottom-footer
+dorotafilipiuk.pl##.footer > .container > div.row:first-child > div:nth-child(2)
+douglas.pl##.newsletter-confirmation__wrapper
+douglas.pl##.rd__footer__block--newsletter
+doz.pl##.footer__top
+dpcraft.pl##.newsletter_popup.module
+dpn.pl##.column-right > div.box:nth-of-type(2)
+dre.pl##.main__col--newsletter
+dressler.com.pl###features > div > div:first-of-type
+drewno.pl###nl_sticky
+drmaxdrogeria.pl##.subscription-wrapper
+drogeriausa.pl###newsletter_el
+drogerienatura.pl##.items-center.xl\:px-0.px-4.flex-col.flex.z-10.relative.xl\:max-w-full.max-w-\[580px\].mx-auto
+drogeriepolskie.pl##.footer-newsletter-area
+drogerium.pl##.newsletterek
+drogowskazykariery.pl##.module_column_5-11-3.module_column_3.tb_5_column.module_column.last.col4-1.tb-column
+dronexpert.eu##div.BoxRwdUkryj:nth-of-type(8)
+duka.com,lot.com##.is-newsletter
+dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
+dystronet.pl##.post > #gr-form
+dziennik.pl,forsal.pl,gazetaprawna.pl##.footerNewsletterContent
+dziennikprawny.pl##footer > div.container > div.row > div[class]:nth-of-type(3)
+dziennikzbrojny.pl##.columns.four
+dziewczynynapolitechniki.pl##.col-sm-3:nth-of-type(3)
+e-clarena.eu###zapisz_newsletter_box
+e-hak24.pl##.column_last, .newsback
+e-hotelarz.pl##div.row:nth-of-type(14) > div.col-lg-4.col-md-4.col-sm-12.col-xs-12:nth-of-type(3)
+e-hotelarz.pl##form[onsubmit*="pwsSprawdzStronaGlownaBiuletyn"]
+e-insportline.pl##.lastbox
+e-irwin.pl##.footer .row > div:nth-of-type(4)
+e-kidsplanet.com###newsletterBanner > div
+e-konkursy.info,wittchen.com##.widget-newsletter
+e-korepetycje.net##.offer-sidebar-banner
+e-kwiaty.pl##.mnewsletter
+e-militaria.pl##.st_news_letter
+e-pies.eu###m_footer_newsletter
+e-pies.eu###m_footer_newsletter#mc-embedded-subscribe-form
+e-prawnik.pl##.boxA2
+e-sas.pl###fbbok
+e-security.com.pl###footerTopPasek
+e-spar.com.pl##.icon-xl.icon-envelope-white.spar-icon ~ *, .icon-xl.icon-envelope-white.spar-icon
+e-warzywnictwo.pl##.stopka-newsletter-kontener
+ebroker.pl###ft_t_in
+ebuciki.com###fnews
+ecco-verde.pl,vobis.pl##.b-newsletter
+echomedia.info##footer > div > div > div > div > div:nth-of-type(3)
+ecospa.pl,eszkola24.pl##.news-letter
+ecr.pl###sidebar > #mc_signup
+ecr.pl###sidebar > h3:nth-of-type(2)
+ecr.pl##.footer-content > div.tt-column.one_third:nth-of-type(2)
+edbak.com##div.columns.large-6.medium-6
+edgecam.pl##.Columns3_4 > .custompod.FeaturePod > .pod-box
+edgecam.pl##.Columns3_4 > .custompod.FeaturePod > p
+edrone.me###newsletter-form-bottom
+eduksiazka.pl###newsletter-subscribe-block, .getintouch.col-xs-12.col-sm-3 > h3
+edulider.pl###block-mailchimp-signup-mailchimp
+edunews.pl##.moduleacy-email
+edutorial.pl###sendpress-widget-6
+edziecko.pl,ladnydom.pl,myfitness.pl,ugotuj.to,wyborcza.biz##.nlt
+eelsner24.eu,kupzegarek.com,sklep.platinet.pl,sorbenty.pl##.footer_nls
+efashionstudio.pl##footer > .top > .container
+egarden.pl##.newsletter-foot
+egospodarka.pl##.ego-ico3, .ego-newsletter
+ekoj.pl###newsletterbar
+ekomercyjnie.pl##.clearfix.main-menu > li:first-of-type, .home-newsletter, .blog-newsletter, #bottom-newsletter
+ekopaka.pl,naszogrodniczy.pl,sklep-agroland.pl,zakreconysloik.com.pl##.wce_footerinfo > .wce.overlay > li > ul > li:nth-of-type(5)
+eksiazki.az.pl##.subscribe > p, .subscribe > h2, .feedburner
+ekskluzywnymenel.com##.marlene-widget-newsletter
+eksperymentalnie.com,pozdrozkrld.com##.widget_mailchimpsf_widget
+eksperymentalnie.com,totalnareklama.pl##.widget_getresponse-widget.widget
+eldomagd.eu##.pro-footer-newsletter
+elektroguru.com##.footer-main__box--newsletter
+elektromeks.pl##.newsletter_stopka
+elektronik-service.com.pl###form_newsletter_down
+elektroniksc.com.pl##.tpl-newsletter-form-widget
+elektrostymulatory.net###newsletter-fm
+elektrykapradnietyka.com##a[href="http://elektrykapradnietyka.com/newsletter/"]
+elle.pl,portalzp.pl##.bottom-newsletter
+elnino-parfum.pl##.Subscribe > .Container
+eloblog.pl##a[href="https://eloblog.pl/newsletter/"]
+eltrox.pl##.footer > div:first-of-type
+emedyczny.com,pb.pl,pro-skippers.com,sklep-wadima.pl###NewsletterBox
+emocje.pro###bloomwidget-3
+emp-shop.pl##.mb-sp-2.mb-1.order-md-12.order-8.d-flex.open-md.col-md.col-12
+empik.com##.footerNewsletter__form-wrap
+empik.com##.newsletter-registration__banner.newsletter-registration
+enerad.pl###g1-prefooter-widget-area > .g1-grid > .g1-one-fourth.g1-column:nth-of-type(3)
+englishcollege.pl##.menudol > .calosc > #kontakt
+enova.pl##.ipb-newsletter-form, .ipb-newsletter-info
+eobuwie.com,kler.eu,kratki.com,missguided.com,smyk.com,szymonbrodziak.com##.footer__newsletter
+eofficemedia.pl,fairbee.pl###tab_newsletter
+epicdrama.pl##.epic-footer-nav > .row > .col-md-6
+epoznan.pl##a[href="about-newsletter"]
+equishop.com###newsletter_block_footer > div.content:nth-of-type(2) > h3, #newsletter_block_footer > div.content:nth-of-type(2) > h3 + div
+erp-view.pl###top-mod
+esaliens.pl##.news-btn.aside-btn
+escoli.pl##.no-left-padding.col-sm-6 > .footer-block-title, [id^="newsletter-validate-detail"]
+eskk.pl###footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > h4
+eskk.pl###main-container-newsletter
+esklep.agroas.pl##.newsletter-homepage-ui
+esklep.niewiescin.pl##footer > #widgets > .container > div.widget:last-child
+esklep.poczta-polska.pl###footer > div:nth-of-type(3)
+esprit.com.pl##.newsletter-gora
+espritshop.pl###newsletter-registration-form
+esselte.com##.abc-footer__newsletter
+esselte.com##div.span6:nth-of-type(2)
+essilor.pl##.Footer-col--contact.Footer-col > .Footer-title--head.Footer-title
+estante.pl###block-5 > .mailpoet_form
+estella-shop.eu##.pxl-footer-container .pxl-newsletter > div > div:first-of-type > *
+estradaistudio.pl###subscribe-newsletter
+eszyneczka.pl###block_4 > #down > .container > .row > div:nth-of-type(5)
+et.com.pl##.column > #be
+etam.pl##.footer_nsw
+etsy.com##.not-signed-in.subscribe-form
+etuo.pl##.footer__col--join-newsletter
+etuo.pl##section.sec--home.sec li.list__item > a[href="https://www.etuo.pl/newsletter"]
+eu.dlink.com##.newsletter-sign-up__container.container
+eura7.com,pl.malwarebytes.com###newsletter-signup
+eura-tech.eu##.foo-newsletter
+euractiv.pl##.row > pnespwidget
+euroelectronics.pl##.site-footer > div > .grid > div[class*="footer__item"].grid__item:nth-child(6) > div
+euroogrod.com.pl##.menu_newsletter_text
+europacentralna.eu,sare.pl##.nlblock
+eveline.pl##.subscribe-to-news
+evenea.pl###subscribe-section
+evertiq.pl##.register.index.news
+evertourist.com##.newsletter_wrapper
+evertourist.com##div.col-md-6.col-xs-12
+ewakacje.pl##footer div.classPageGenerator_default_container:nth-of-type(2) > .classPageGenerator_default_bottom_box1
+expondo.pl##.footer--newsletter-wrapper
+express.pl##.footerBanner_el-newsletter
+expresspaslek.pl,slowopodlasia.pl##footer > div > div:first-child > div > div > div:last-child
+eyeforfashion.pl,renee.pl##.newsletter__section
+fabrykazabawek.eu##.col-md-3.trzecia
+faceandlook.pl##.newsletter-right-block
+fachowydekarz.pl##div.textWidget:nth-of-type(7)
+fajne.life##.post div[class*="form"][data-success_action_details]
+fajowo.eu###footer.row > div[class*="col"]:first-of-type
+faktyozywnosci.pl##.column-first.vmag-footer-widget
+fanbook.store##.abs-newsletter-panel
+fandroid.com.pl##.manohara-mailchimp--aligned-center, .widget-incredibbble-mailchimp-form
+farbykabe.pl##.newsletter_head, .newsletter_text
+fasardi.com,revouninstaller.com##.subscribe
+fashyas.com,kolekcjonerki.com##footer div:nth-of-type(3)
+fc-moto.de##.NewsletterBox, .NewsletterBox + div
+felixcom.net##.ftop > .container > .right
+feniks.wroc.pl##.newsletter-wr
+festool.pl##.newsletter__footer
+fielmann.pl##div[data-cy="newsletter-"]
+finereader.pl##footer > .container-fluid > .container > .row > div:first-of-type > .text-white:nth-of-type(2)
+finereader.pl##footer > .container-fluid > .container > .row > div:first-of-type > .textwidget:nth-of-type(3)
+fish24.pl##.newsletter_foot
+fizjoplaner.pl##.ft_nl
+flies-stepbystep.com###widget-7
+florexpol.eu##.section--newsletter
+floribunda.pl###footer div.item:nth-of-type(4)
+flovery.pl###footgroup-newsletter
+foodarea.pl##.widget_custom_html
+foodarea.pl##div.has-background.alignfull.wp-block-group:nth-of-type(6)
+foodex24.pl##.layout__footer form[id*="subscribe-form"][action*="foodex24.pl/subscribe/send"]
+foodsbrothers.pl##.type_instagram.footer__top > div > .container > .row > div:nth-child(4) > aside > div > :not(:last-child)
+foodsbrothers.pl##.type_instagram.footer__top > div > .container > .row > div:nth-child(4) > aside > h3
+foodsbyann.com##.custom_footer__box--left.custom_footer__box
+foodyas.com##footer > div > .row > div.col-lg-4:nth-of-type(3)
+forbot.pl###powiadomieniaMailowe
+foreo.com###block-subscriptionblock
+forsal.pl##div > a[href="http://forsal.pl/newsletter"], .forsalHeaderLinks > .col-sm-off.col-xs-off:first-of-type
+forum-ekonomiczne.pl##footer div.col-lg-3.column_parent:nth-of-type(3)
+forum.android.com.pl##[data-blockid="app_core_newsletter_newsletter"]
+forum.budujemydom.pl##.index-newsletter
+forum.shinden.pl##.styliumFooterFourthCol
+foto.auchan.pl##.cw_newsletter, .sidebar-link[href="http://www.foto.auchan.pl/newsletter.html"]
+fotografwdrodze.pl##.sidebar > div.widget_text.widget:nth-of-type(4)
+fotokoszyk.pl##.follow_news:nth-of-type(4)
+fotopanorama.pl##.newsletter-group, #social > a[href="/newsletter/add"]
+franczyzainfo.pl##footer > .container > div:first-child > .footer-box > .footer-form
+frenchtouchlabellevie.pl##.newsletter-mail
+fresh-market.pl###kolp > .ramka.box_p
+fresh-market.pl###kolp > h4
+freshmail.pl##.newsletter-shortcode-form
+fritzbox.com.pl##.nslt
+fundacjadominikana.org###bottom.row-fluid > #sp-bottom6
+fundacjajoannyradziwill.pl###custom_html-4 .custom-html-widget.textwidget > h4.widget-title:first-of-type
+fundacjajoannyradziwill.pl###custom_html-4 a[href="//fundacjajoannyradziwill.pl/#newsletter"]
+fundacjawolnosci.org###email-subscription
+funnycase.pl###footer-top-newsletter
+futuryx.eu,i-meble.eu,outletarenamoravia.com,woblink.com###footer-newsletter
+gajusz.org.pl###bg-koperta
+galeria-warminska.pl##.nwsltr.box
+galeriakatowicka.eu##.footer-cta__newsletter
+galeriakatowicka.eu##.metka
+galeriakazimierz.pl###newsletterSignUp
+galerialucznik.pl###top-footer div.lucznik-top-footer-element:first-of-type
+galeriapolnocna.pl##.footer-right > .newsletter-top
+galileos.pl,sportplus.pl##.KolumnaNewsletter
+gamedot.pl##.footer-top-container-item:nth-of-type(4)
+gardenguru.pl##footer div.links:nth-child(5) > div > p
+gastro-pol.pl##li:nth-of-type(8) > form, ul:nth-of-type(2) > li:nth-of-type(7)
+gazetamiedzyszkolna.pl,konstytucjabiznesu.biz,wroclawskiejedzenie.pl###blog_subscription-2
+gazetapowiatowa.pl###wysija-7
+gazetapraca.pl##.col-md-4:nth-of-type(14)
+gazetaprawna.pl,ikomunikaty.pl##.footerNewsletterContent label, .footerNewsL
+gazetawielicka.pl###text-35
+gazetkonosz.pl##.box:nth-of-type(2)
+gbsbank.pl##.newsletterFooter
+gdanskstrefa.com###blog_subscription-3
+gdzietymrazem.pl##.td-pb-span4:first-of-type > .widget_text.widget.td_block_template_1
+gdzietymrazem.pl##.widget_custom_html.widget.td_block_template_1.widget_text:nth-of-type(2) > .custom-html-widget.textwidget
+geekbuying.pl,lightingcenter.pl,perfumeriatop10.pl,toys4boys.pl###newsletter_block_home
+geekwork.pl###newsletter-head
+germany.travel###footer_inner_wrapper > div:first-of-type > .list-inline > li:nth-of-type(9), li.divider:nth-of-type(10)
+getmailbird.com,roshen.com##.footer-subscribe
+gettinenglish.com###easy-opt-in-widget-2, .sh-s11.sh-t6.section-heading > .h-text
+giacomo-design.com##.newsletter.cell.large-3 > h3, .newsletter.cell.large-3 > div > .es_shortcode_form.es_subscription_form
+gieksainfo.pl##div.menu-wide:nth-of-type(3) > h2:first-of-type
+gieksainfo.pl##div.textwidget:nth-of-type(2)
+ginlong.com##.pc-rss2
+gino-rossi.com##.footer .top > ul > li:nth-of-type(2)
+girya.com.pl##div.copy.container-fluid:nth-of-type(2) > .container > div.text-center.col-xs-12.col-md-6:first-of-type
+gliwice.eu,ukrainashop.com##.newsletter_wrap
+global4net.com##.footer-grid-el2.col-xl-6.col-12
+gloria24.pl##.tg-info-cookie
+go-market.pl###newsletter-info
+gofin.pl##img[src="https://www.gofin.pl/images/newslettery_gofin_dzial.png"]
+goldbroker.pl,kurasinski.com,piroart.eu##.home-newsletter
+gomobi.pl##.zapiszsiedonewslettera
+goodram.com##footer > div > .row > .col:last-child
+gorlice.pl##.sdbar-newsletter-cont
+gorno.pl##.stopka-info > .blok > div.szerokosc-14.kolumna:nth-of-type(4)
+gosc.pl##.Col0.LayoutColumn.c1 > .wp-el.webpart-wrap-layout_column.wp-bd > .wp-el.webpart-wrap-links.wp-bd
+goscinnygaj.pl##.center-block.row > .col-md-3:nth-of-type(2)
+goshico.com##.newsletter-block_dark
+gospodarkamorska.pl###newsletter-bx
+gospodarz.pl###bucia > div:nth-of-type(2)
+gospodarz.pl##div.footer_menu.col-sm-12.col-md-3.col-lg-3:nth-of-type(4)
+gospodarz.tv##.cp-sidebar > .widget-form.widget
+gowork.pl##.company__subscribe
+gowork.pl##.notification-popover
+grafmag.pl##.footer__notify_newsletter
+gramwzielone.pl##.hidden-xs.hidden-sm.col-md-12
+grawerowanie.org.pl##.signup
+greencell.global##.nl-footer-container
+greenfelix.eu##.footer-container div[class]:nth-of-type(4)
+grene.pl###pollSlider-button
+grillmix.pl##.col-sm-3:nth-of-type(5)
+grobonet.com##.footer-right-site form
+gromar.eu,languagetool.org###footer
+grono.pl###Mod104
+grupaimage.eu##.sidebar-left > div.sidebar-box:nth-of-type(2)
+gs1pl.org###section-newsletter
+gtbicycles.pl###mailinglist_container
+hackintosh.com.pl,ustka.travel##.mailchimp
+haczykowo.pl,kopalniasrebra.com,sklep.miodyapis.pl,sklep.wzso.pl,texasclub.pl##.newsletter1-wrapper
+hairstore.pl###stopka_newsletter
+handluj.com###footer_top > .container > .row > div:first-of-type
+hanet.com.pl##.wce_newsletter
+happyenergy.pl##.sectionNewsletter
+hart.pl,herki.pl###_ctl0_NewsLetterInitC_NewsletterForm
+hello-body.pl,medestetis.pl,wei.org.pl###custom_html-3
+hermessk.pl###sliding_box_submit1
+hirschmann.pl##.subscribe-line
+histmag.org###calculatedSocials > a[href*="#newsletter"]
+histmag.org##.css-nil > a[href="https://old.histmag.org/#registerlink"]
+histografy.pl,swobodnie.eu###wysija-2
+hoegert.com##.moduletable
+home.pl###nlForm
+homeoffice360.pl###footerColumn2 > h3:nth-of-type(2), #newsletterForm
+homla.com.pl##.multichannel-newsletter
+honia.pl,niebieskimigdal.pl##.widget_mc4wp_form_widget.widget
+horecabc.pl##.et_pb_image > a[href="https://www.horecabc.pl/newsletter/"]
+horecatrends.pl##.dif-2.box-11
+horex.pl##.newsletter__input
+hostovita.pl##.newsletter-signups-dialog
+hotel.odr.net.pl##.ml-subscribe-form
+hoteladler.com##.span4.moduletable:nth-of-type(3)
+hotelcenturia.pl,kakadu.pl###newsletter_btn
+hotelkrynica.eu##.module-footer-newsletter
+hotmed.pl###tm-bottom-c > div:nth-of-type(3) > .uk-panel
+housebrand.com##.containerNl
+housebrand.com##.footer-newsletter-form
+hoyavision.com##.footer__subscribe
+humint.pl##.widget_custom_html.widget-footer.widget-default.widget.widget_text
+hurtowezakupy.com##.footer-container > div > .row > div:nth-of-type(4)
+hurtownia-format.pl##.footer.row > .col-md-4
+hurtownia-spozywcza.pl###accordion_footer > div.list-group.foot-group:nth-of-type(4)
+hurtowniabartel.pl###dor_custom_newsletter_block
+hurtowniarolnicza.pl##.customWrap > span, .customWrap > form
+hurtowniasportowa.net##footer > .aboutUs > div > div > div > div > div:first-of-type
+hurtowniateleinformatyczna.pl##ul:nth-of-type(3), .rc-box-newsletter.box
+hydro.com.pl,mebline.ie##.newsletter-bg
+hygieia.pl##.footer-info div.grid_3:nth-of-type(3) > div.grid_3
+hykker.com##.widget_wysija
+hyperxgaming.com###email-signup-modal, .s-footer__email
+iautomatyka.pl##div.pfwidgetinner:nth-of-type(6), div.h2_belka:nth-of-type(5), #pf-footer-row > .pf-row > .mpc-column.col-md-3.col-lg-3.wpb_column:nth-of-type(2), .mailster-form
+ibrpolska.pl##.panel.widget-first.widget-1
+ichi.pro##a[href*="eepurl.com/"]
+idream.pl##.main-newsletter
+igimag.pl###freshMailPopUp__background
+imperiumromanum.edu.pl##div.wpb_raw_html.wpb_content_element.wpb_raw_code:nth-of-type(2)
+inexbuy.pl##.us-foooter-subscribe-row
+infoair.pl,infobike.pl,infobus.pl,inforail.pl,infoship.pl,infotram.pl,transinfo.pl##div.right_content_box:nth-of-type(4)
+infobeskidy.eu,starysacz.info###NewsletterForm
+inpostpay.pl##.newsletterBar
+insert.com.pl##li:nth-of-type(2) > .info-channel
+instalki.pl###Mod286 > div > div > div
+instytutoka.pl##.Footer__nav > div > div:last-child
+interaktywnie.com###rightContainer > div:nth-of-type(3)
+interaktywnie.com###wrapper > .grid_5 > div.categoryBox:nth-of-type(5)
+interaktywnie.com##.all-demo > a[href="https://interaktywnie.com/rejestracja"]
+interferie.pl##.newsl, #footNL, #newsletterBtn
+intexpc.pl##.newsletter-form-wrapper
+intimissimi.com##.border-right.footer-box.align-center-middle.grid-x.large-5.cell
+inzynier-medyczny.pl###sidebar #fm_form_1
+inzynierbudownictwa.pl##.subscribewidget
+ip-sa.pl###PageLeft_ContentPlaceHolder_PageLeft_NewsTable
+ip.pl###left > div:nth-of-type(11)
+ip.pl###left > div[style*="newsletter"]
+iparts.pl##.newsletter-blok
+iposto.com##.cf.news_box.bottom-box
+irisimo.pl##.footer-email > .row > div:nth-child(2)
+irobot.pl##.a-inputcomponent
+iwanowice.pl##.col-lg-3.col-md-4.col-sm-6.col-xs-12:nth-of-type(2)
+izba-lekarska.pl##.add-to-newsletter-button
+izigsm.pl###footer > .footMenu > .color.columnBox
+jackjones.com##.js-customer-club__signup
+jadwizanki.com.pl,opi.org.pl,rosebikes.pl##.newsletterform
+jagodnik.pl##.td_uid_52_5f019c1f4f05b_rand.vc_widget_sidebar.td_block_wrap.wpb_wrapper
+jagodnik.pl##.textwidget
+jagodnik.pl##.widget_text > .block-title
+jagodnik.pl##a[href="http://www.jagodnik.pl/newsletter/"]
+jak.tv##.nav-newsletter
+jakiwniosek.pl##.footer > div > div > div:first-child > :nth-last-child(n+2):nth-last-child(-n+4)
+jakrobicmarketing.pl###\31 -2
+jaroslawiak.pl###nwslBoxCnt
+jaw.com.pl##footer > div > .row > div.col-md-3:nth-of-type(3) > h3, #em_sub
+jestemfit.pl##.footer__section.form-fields-std, .newsletter--sg-2
+jg.com.pl###footer > .container
+joannaceplin.pl##.nsl_glowna, .panel-row-style-for-6-3.panel-row-style.siteorigin-panels-stretch
+jobs.pl##.invitation, .notification-submit-box
+joga.org.pl###col2 > .module:nth-of-type(2)
+johndog.pl##.promo-newsletter
+johndog.pl##div[style*="newsletter"][class*="container"]
+joom.com##div[class*="promoCorner_"]
+jsystems.pl###zapisz-sie-newsletter, a[href="newsletter.do"]
+jupi24.pl##.rc-box-newsletter
+kabexdocieplenia.eu##.footer-wrapper > .footer > div.f-box:first-of-type > *
+kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-success
+kam-sport.pl##footer div.col-sm-4.vc_column_container.wpb_column.nm_column:nth-of-type(2) > .vc_column-inner
+kappahl.com###news-footer
+karakter.pl##.newsletter-promo
+kariera.pl##.article-newsletter
+karmy.com.pl##.c1 > div.box:nth-of-type(9)
+karoseria.eu##.info-newsletter
+karpiowy.pl##.newsletter-group > .container
+kasastefczyka.pl###InteliwiseSaaSModule_win_wrapper
+katalogmarzen.pl##.bottom-box.content-box > .container > .row > div:nth-of-type(2)
+katowice24.info##.top-footer > div.col-md-3.col-sm-12:nth-of-type(3)
+katowice.eu##.newsletter_title, .newsletterTitle
+kaufland.pl##.m-teaser > .m-teaser__link[data-aa-pagename*="newsletter"]
+kaufland.pl##.o-form--footernewsletter
+kawerna.pl##.item-last.span4
+kayak.pl##[class^="Common-Frontdoor-EmailSubscriptionPanel"]
+kdk.pl##div.footer-bottom:first-of-type
+kiddyfave.com##.col-xs-12.col-sm-12.col-md-12 > h3, .subReqForm
+kidsb2b.pl##div.footer-box:nth-of-type(3)
+kierunekspozywczy.pl###sb-newsletter
+kim24.pl###fboxNewsletter
+kim.elblag.pl##p > table > tbody > tr > td:nth-of-type(2)
+kingston.com###email-signup-modal
+kingston.com##.s-footer__email
+kiosk.ruch.com.pl##.footer-section--newsletter
+kioskpolis.pl##footer section div form.form[action*="freshmail"]
+klasycznebuty.pl###myfooter div.f-grid-4:nth-of-type(2) > h3:nth-of-type(2)
+kliknijwzdrowie.pl,retailmarketexperts.com###custom_html-12
+klinikaagd.pl##.stoka_newsletter .stoka_newsletter_btn
+klinikaagd.pl##.stoka_newsletter > div:nth-child(-n+3)
+klinikamiracki.pl##.km-newsletter
+klockolandia.pl###footer > .boxBlue
+klubjagiellonski.pl##.block-content_breaker_newsletter
+km-net.pl###wysuwane
+km-net.pl##a[href="/kontakt"]
+knowband.com##.kbGetUpdates
+kobieta.pl##.text-center.sidebar-box:nth-of-type(11)
+kochanamama.pl##.pmpIMail
+kodano.pl###app-form-subscribe-wrapper
+kolczewska.pl##.ulp-tab-right-middle.ulp-tab > .ulp-tab-content
+komfort.pl##.ComponentNewsletterIcon
+kompava.pl##.mailinglist-signin
+konfederacjalewiatan.pl###bazo_form_popup0
+konstantinkanin.com###mailchimp-top-bar
+kontakt-simon.com.pl##.newsletter-subscribe__button
+kontaktowe.pl###nbj
+kontigo.com.pl##[class*="newsletter-root-"]
+kormoran-rowy.pl##.site-footer__row--top > .inner-section > .align-right.site-footer__col
+koszulkomat.eu##div.group:nth-of-type(5)
+koszulkowo.com##.sec--foot__main__box:nth-of-type(2)
+kotarbinski.wordpress.com###media_image-33
+kozackadrogeria.pl##.block-newsletter-footer
+kozigrod.pl###newsletterHld
+krainazabawy.pl###footer .col-md-3
+krasiczyn.com.pl##.side_newsletter
+kreatorium.com###nsl
+kross.eu##.is-newsletter.c-group_row
+kruczek.pl##.post_mc_newsletter.mc_embed_signupm, #mc-embedded-subscribe-form
+krzywydomek.info###main > .row2.col1
+ks.pl###nwsltr.extnewsletter
+ks.pl##a[href*="#nwsltr"]
+ksiegarnia-edukacyjna.pl##.footer-newsletter__content-wrapper
+ksiegarnia.beck.pl##.newspopup_up_bg
+ksiegarniamorska.pl###blockEmailSubscription_displayFooterRight
+ksiegarniasztuki.pl###kolumny_k .prawa
+kuchnialidla.pl##.home_newsletter_col1
+kulig.pl###newsletter-pasek-in > .row > div:first-child
+kulinarne.info##.div.p-3.col-md-4:first-of-type > .text-center.mb-4
+kulinarne.info##.form-newsletter
+kulturalnysklep.pl##.b-banner-newsletter
+kupbilecik.pl##.blinkGray.boxTopInfo
+kupiec.pl###vnlab-footer-before
+kuponrabatowy.net###social .mleft > h4, #social .email
+kurasinski.com##.newsletter-link
+kurencja.com##.page-newsletter
+kurierhistoryczny.pl##div.newsletter__col:nth-of-type(6)
+kwestiasmaku.com###block-block-1
+kwiatowaprzesylka.pl##.footer1_13
+kwiatywoknach.pl##.block_newsletter_list
+l37.eu###footer-container > div.row:first-of-type > div.footer-menu:nth-of-type(5) > :nth-child(-n+5)
+labotiga.pl##.block_newletter
+ladybusiness.pl##.newsletter-sectionw
+laksystem.pl##.wf2-scroll-box.grwf2-wrapper
+lamisi.pl##.widget-newsletter-subscribe
+lamoda.pl##.min-h-newsletter
+lampy.pl###newsletterbox_1
+lancut4u.pl##.lsvr-mailchimp-subscribe
+languagetool.org###newsletter_reg
+laptopypoznan.pl##.ps-spotlight5
+laroche-posay.pl##.ctn_newsletter
+laroche-posay.pl##.ctn_newsletterl, .widget_popin_newsletter
+lasuch24.pl###box_biuletyn
+latarki.pl##.bakedparallax-wrapper
+latarnia.teatrnn.pl###main_oferta > div:nth-of-type(2), #main_oferta > div:nth-of-type(2) + form
+lawendowykredens.pl##.footer-static > div.col-sms-12:nth-of-type(3)
+lebork24.info###newsletterAdd
+lechia.pl##div.foot-cols.row:nth-of-type(2) > div.col-item:nth-of-type(3)
+lechpol.pl##.column-header
+lechpol.pl##.js__newsletter_form
+lectus24.pl###addme
+lectus24.pl##.mobile-addme
+legalnews24.pl##.bezplatny_bliuletyn
+lemonpixel.pl###footer > .col1_3Wrap.wrap > div.col1_3:nth-of-type(3)
+lenovo24.pl##.newsletter-section-2
+levi.com###newsletterSignup
+libra.pl##.footer-bg #block-12
+lideria.pl###box_newsletter_text_books
+liderpojezierza.pl##div.projekt65spot:nth-of-type(2) > .clear.container > .row > .col-md-12 > div.module:first-of-type
+lidl-sklep.pl###footer-newsletter-content
+lidl-sklep.pl,lidl.pl##.footer__accordion-newsletter
+lidl.pl##.form--newsletter
+lightinthebox.com##.our-newsletters
+linguajob.pl###zamow-link
+lipsko24.pl##.prawyblok3content
+littleforest.pl##.footer--newsletter, .footer--blog__right > h2.font--alt:first-of-type, .footer--blog__right > p, .yikes-easy-mc-form
+lm.pl##.new_boks_newsletter
+logitech.com##.email-subscription
+logitechg.com##footer .email-subscription
+lokalnatelewizja.pl,supertydzien.pl##.sm-text-center.mb15.col-sm-6:first-of-type
+lomza.pl###s-blok3 > form, #s-blok3 > h4:nth-of-type(2)
+longevitas.pl##.left.sign-up-home
+longterm.pl##.footer-top > .container > .row > div[class]:nth-of-type(3) > div.widget:first-of-type
+lookfantastic.pl##.eastendFooter_signup
+lotaro.pl,luszczyce.pl,polskiemedia.org###custom_html-4
+lp.al.to,lp.x-kom.pl##.newsletter > div > div:nth-child(-n+2)
+lp.morele.net###moveToNewsletter
+luba-group.com##.footer-list > h6.title:nth-of-type(2), .footer-list > .oposite.theme-button-three
+lubimyczytac.pl##.footer__fixed.js-footer-fixed
+lumarte.eu###newsAnch
+luminosfera.pl,slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
+luxfood.pl###Left > .nyroModal:first-of-type
+luxmed-diagnostyka.pl##.newesletter-box
+lycamobile.pl##.lm-footer-container > div > .lm-footer__body > .row > div:first-child > :not(:last-child)
+maciej.je##p:nth-of-type(47)
+magazif.com,mamkomputer.info,mirat.eu,stoicway.net,tlp.is##.newsletter-form
+magnapolonia.org##.tnp-subscription
+magnatfarby.pl##.newsletter-sign-in-btn
+magnatfarby.pl##.sn-newsletter--homepage.sn-newsletter
+majsterkowo.pl,moj-kawalek-podlogi.pl,spirulina.pl,tato.net,techformator.pl,zatorland.pl###text-9
+makita.sklep.pl##.ModulNewsletterDol
+mam-serce.org##div.uk-section.uk-section-default:nth-of-type(10)
+mamaplus.pl###mc_embed_signup
+mamonik.pl###text-3
+mamopracuj.pl##.newsletters
+mamotoja.pl##.nlt-footer
+mamstartup.pl##.hb-right.submitClearInput
+mamyje.pl##.subscribe_home
+managerka.com###zapiszSieNaNewsletter
+mango.pl###smSubscriptonBox
+mango.pl##.banner-slim
+mango.pl##.newsletter-newsletter--Q4
+mango.pl##div[class^="newsletter-root-"]
+manorhouse.pl##.site-newsletter
+manta.com.pl##.col-md-6.news_right
+marbo-sport.pl###top_newsletter
+marcoshoes.eu##.footer_newsletter_form
+marketbio.pl##.item-newsletter.item
+marketingprzykawie.pl##.footerNewsleterContent, .footerNewsleterHeader, .toogleNewsletterBox
+marta-gotuje.pl##.pipdig_widget_subscribe
+martom-hurtownia.pl##.footer-top > div > .row > div:nth-of-type(2)
+masterlease.pl##.blue-green.section
+maszynadopisania.pl##.form_subscribe[class*="freshmail"]
+maszynadopisania.pl##header a[href="/#fm_form_1"]
+matio-med.pl##.newsletter_home
+max-protect.pl,sklep-smile.pl##.footer-block-contain > .block1
+maxibike.pl##.newsletter-holder
+maylily.pl##.newsletter-footer-edrone
+mazovia.pl##.clearfix > .nice-shadow.search-block
+mazury.travel,moliera2.com###newsletter_box
+mbmeganarzedzia.pl,motogron.com##.footer-container > div > div > div:nth-of-type(4)
+mbp.szczecin.pl##.elementor-element-71a1cb7
+mdk.opole.pl##footer > .my_container > .formularz.sub
+meble88.pl##.form-subscribe
+meble-z-drewna.pl###lewy .zawartosc > table, #lewy .zawartosc > table + p:empty
+meble.pl###newsletterBlok
+meble.pl##.mainFooter > .row-flex > div:nth-of-type(6)
+meblohaus.pl##.moduletable_left
+meczenazywo.pl###p-right > div:nth-of-type(11)
+med-store.pl##.tlo_news
+media-tech.eu##.footer-container > .container-fluid > .row > div:nth-child(4)
+media.ing.pl##div.column:nth-of-type(3) .footer-section-text, div.column:nth-of-type(3) .footer-section-text + div
+mediaarena.pl###fx-newsletter-freshmail
+mediaexpert.pl##.layout:not([class*="landing" i]) #section_newsletter
+mediamarkt.pl##.b-header_metaItem:nth-of-type(3), .m-newsletterBox
+medianarodowe.com##.widget_radium_newsletter
+mediarun.com,siecprzedsiebiorczychkobiet.pl##.vc_row-has-fill
+medicover.pl##.block-footer-menu-1 > .unbulleted.poziom1 > li:nth-of-type(4), .reg15
+meditrendy.pl##div.wpb_row.row:nth-of-type(4) > .col-sm-12.wpb_column, .easymail_form_widget
+medme.pl##.newsletter-redesign
+melagu.pl##.ty-footer-form-block > .cm-processed-form
+memi.eu,mirat.eu##.top-footer
+mentel.com.pl##.news_link2
+mentel.com.pl##.news_link
+meritum.gda.pl##.w234.fleft:nth-of-type(6)
+merlin.pl##.b-footer__icons-list
+metal-bud.eu##footer div.col-md-6:nth-of-type(2) > .row > div.col-md-6:nth-of-type(2)
+metalowiecsc.pl###Mod131 > .module-inner
+mi-home.pl###newsletter_block_left > div:nth-of-type(-n+2)
+mi.com##.site-footer__connect
+mi.com##.span12.customer-relationship
+miastodzieci.pl##.pull-left > a[href="/zapisz"]
+midar.net.pl##.pomaranczowy.boks:nth-of-type(4)
+mieszkajwmiescie.pl##div.col-sm-4:first-of-type > p.txtNewsletterDesc:nth-of-type(2), .conNewsletterInput, div.col-sm-4:first-of-type > .txtNewsletterTitle
+milight.pl##div#produkty.section:nth-of-type(11)
+milmag.pl##.newsletter__wrap
+milobuty.pl##.widget_mc4wp_form_widget.count-4.col-xs-12.col-sm-6.col-md-3.inline-column.widget
+miloohome.pl##.footer-container-newsletter
+mimari.com.pl##body > div#contentWrapper
+mirat.eu,ursus.com##.box-newsletter
+misterminit.eu##.blue-banner .banner-wrapper h3, .blue-banner .banner-wrapper h3 + div > a
+mixmedia.pl,mycenter.pl##.b-footerNewsletter
+mksklep.pl##div.CalyBox:nth-of-type(7)
+mlodeasyparkietow.pl##.foot_tit, .foot_news_info
+mlodytechnik.pl##[href="/newsletter"]
+mmo.pl###newsletter_subscriber
+mobileclick.pl##.essb_mailform
+mobileclick.pl##.single-newsletter
+mobiwear.pl##.custom_newsletter
+mocak.pl###frm-subscribe-newsletter
+modbis.pl###menu_newsletter2
+modea.pl##.footer_wrap .col-md-5
+modivo.pl##.newsletter-section-wrapper
+mohito.com###footer > .footer-menu > .footer-container > .footer-links > .accordion > .accordion-cat > .accordion-cat-title
+mohito.com##.newsletter-row
+mojacukrzyca.org##table:nth-of-type(3) > tbody > tr > td:first-of-type > table:first-of-type
+mojagazetka.com##.social-media-card
+mojedania.pl##.widget_mailpress.widget
+mojegotowanie.pl##.sidebar-box-newsletter
+mojewypiekiinietylko.com##.widget_simplesubscribe.widget
+mojmac.pl##.et_pb_code > .bloom-privacy
+mojpieknyogrod.pl##div.sidebar-box > a[href="/newsletter"] > img
+mokosh.pl##.rightSection.col-md-5.col-sm-12.col-xs-12
+molly.pl###bottom-boxes > .box-left
+monsterpolska.pl###jsa-top
+monsterpolska.pl###twoColumnEmailWidget
+morele.net##.col-md-9.col-sm-7
+mosir.org.pl###wysuwane1
+motherhood.pl###stopka > .container > div > .twothird
+motobanda.pl###bottom-msg, .text-center.row.card
+motobros.pl##.footer__module--3.footer__module.col-sm-5.col-xs-12
+motocombo.pl##.footer-conteiner > ul:nth-of-type(4) > h3, .footer-conteiner > ul:nth-of-type(4) > .fn-description
+motocykle-krakow.pl###CustomLayoutWidget_6, .tpl-custom-newsletter-form-widget
+motocyklowysklep24.pl##.NewsletterStrona
+motogen.pl##.region-7 > .blok-jasny:nth-of-type(3)
+moyamatcha.com###custom_html-6
+mozilla.org##.mzp-c-newsletter
+mp-office.eu###cta-newsletter
+mp.pl##.box-newsletter-pacjent
+mpk.poznan.pl##.rnd.module:nth-of-type(4)
+mr-fix.pl##.six
+mragowo.pl##div[class*="footer"] > .container > .row[class*="footer"] > div:nth-of-type(4)
+mrowka24.eu###block_newsletter_footer
+multiform.pl###mainContact .writeToUs
+muratorplus.pl##.right > form > button
+muve.pl##.newsl-box
+muzarp.poznan.pl##.footer .form-inline[id]
+muzeumslaskie.pl##.c_newsletter
+muzyczneradio.pl##.newsletter.col-md-3
+muzykotekaszkolna.pl##.nl-subscribe
+mw.org.pl###wpsb
+mydevil.net##body > .white-bg
+myjki.com###newsletter_block
+myloview.pl###submitMe
+mymeest.pl###newsletterSection
+myphone.pl##div.stayInContact__item:nth-of-type(3)
+nadrapaku.pl###HTML3
+naekranie.pl##a[href^="https://www.microsoft.com/emwa/signup_2/pl-pl"]
+najlepszekonto.pl##.root__newsletter
+najlepszekonto.pl##div.footer__column:nth-of-type(4)
+namyslow.pl##.footerBoxNewsletter
+naostro.info##.mvp-foot-right > .mvp-email-sub-wrap
+narodowytestzdrowia.medonet.pl##.email--box
+nartorolki.pl###Mod139
+narzedzia.pl###widgetnewsletter
+narzedzia.pl##div.footeritem:nth-of-type(5) > h4
+narzedziowy24.eu##.footer-container .row > div[class]:nth-of-type(4)
+nastopy.pl###newslettersignup
+naszarola.pl##.avia-builder-el-103.first.av_one_third
+naszerecenzje.wordpress.com###blog_subscription-4
+naszesprawy.eu##.theiaStickySidebar > div.add-inner:first-of-type, .theiaStickySidebar > div.add-inner:nth-of-type(3)
+naszhandel.pl##.box_02:nth-of-type(2) > .box_cnt
+naszraciborz.pl##.comments.right_box:nth-of-type(15)
+natvita.pl##div.footer_about:nth-of-type(4) > div.block.ApHtml:first-of-type
+naukawpolsce.pap.pl,naukawpolsce.pl##.block-simple-blockzapisz-sie-na-newsletter
+nazdrowie.pl###subskrybuj
+nazdrowie.pl##.imd-footer.col-xs-12.col-sm-6.col-md-4.col-lg-4:nth-of-type(2)
+nazwa.pl###news_content
+nbsklep.pl##.subscribe_newsletter
+neo24.pl##a[class^="joinNewsletter"]
+neon24.info,nowyekran24.com##.flickr-widget.widget
+neonet.pl##.joinNewsletterDesktop-root-2Mr
+neonet.pl##section[class*="joinNewsletter"]
+neonet.pl,wydawnictwokobiece.pl###newsletter-home
+netgear.com###footer-email-signup
+netmoda.pl###bk_wstawka_R
+nettg.pl##.input-newsletter1
+nettg.pl##.section-content > .heading
+netto.pl##.newsletter-subscription
+newcraft.eu##.block-subscribe
+newled.pl###footernewsletter
+newonce.net##.footer-desktop__newsletter-wrapper, .footer-desktop__right-side > h5.h5:first-of-type
+newsweek.pl##.pw-footer__top__links--newsletter
+newsweek.pl##.pw-newsletter
+newyorker.de##li > a[href="/pl/newsletter/"]
+niebezpiecznik.pl###text-3 > .widgettitle
+niebezpiecznik.pl,telewizja-cyfrowa.com##.textwidget > form
+niebieski.net##.top-newsletter
+niebonatalerzu.pl##.footer div.col-md-1:nth-of-type(3)
+niedzwiedz.lento.pl##tbody > .notify-save
+niemczyk.pl###newsleter
+nieznanyswiat.pl###Mod169
+nivea.pl##.nx-newsletter
+nk.com.pl###formNewsletterMiniEmailRegBox
+nokia.com###signup > div[class*="Email"] > div[class*="Email"]
+nokiantyres.pl,termedia.pl##.orderNewsletter
+nono-store.pl##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(10)
+norauto.pl##div.s-info_item:first-of-type
+north.pl###contact-newsletter
+noskinoski.pl##.footer__block-item--newsletter
+notino.pl##.exponea-popup-banner.exponea-banner
+notino.pl##.footer-subscribeWrapper
+nowakonfederacja.pl###newsletter-header-box
+nowela.pl,teletorium.pl##.newslet
+nowiny.com.pl##.col-md-3:nth-of-type(7) > .info > .bottom > ul > li:nth-of-type(3)
+nowykamieniarz.pl##div.sidebar:nth-of-type(3)
+nowymarketing.pl##.footTools > li:nth-of-type(5)
+nowyobywatel.pl##.a-button-newsletter
+nowyobywatel.pl,taniejdladomu.pl###mailchimp
+nowyolechow.pl##.newsletter_signup
+nowyoutsourcing.pl##.g1-row-mailchimp, #mc-embedded-subscribe-form
+nowyrp.pl##.notifier-box, .promotions-popup-trigger, .offers-popup-trigger
+numizmatyczny.com##.footer #contactbox
+nuty-zapachowe.pl###musli > li:nth-of-type(2)
+nvidia.pl##.subscribe-container
+o-m.pl##.kafel-newsletter
+o.pl###email-bar, #nl-icon, #cs-newsletter
+oaza-palmy.pl##.gm-freshmailFooter-modify
+obi.pl##.disc-footer > section:first-child > * > * > *
+obi.pl##.nl-sign
+obuwiered.pl##.elementor-element-03c01be
+obywatele.news##.secondary-color
+obzarciuch.pl###HTML6
+ochnik.com##.footer__block--newsletter
+ock.gov.pl##.col-xs-10.col-sm-10.col-md-3.col-lg-offset-2.col-lg-3
+odblask.com.pl##.scrollToNewsletter
+odessamarket.pl###footer.footer .widget_presscore-contact-form-widget.widget
+ofeminin.pl##.clubNewsletter
+ofeminin.pl##.nwslttrBox
+ofertapracy.monsterpolska.pl###liteRegDiv
+ofertatorun.pl##.content_bottom.row
+oficynafk.pl##.col-md-4 > .row:nth-of-type(3)
+ofix.pl##.newsletterHome__wrapper
+ogloszenia.trojmiasto.pl##.let-me-know
+okazik.pl##.container:first-of-type > .row-wrap.row > .col-md-3:nth-of-type(2)
+okazje.info.pl###newsletterTab
+okazjum.pl##.newsletter-modal__reveal-button
+okna-pasywne.pl##div:not([class]):not([id]) > div[class*="NewsletterArticle"]:not([class*="content"])
+oknadrzwi.net##.widget_buildplus_core_newsletter
+oknonet.pl##div.lbox:nth-of-type(8)
+oleksy.pl###newslform
+olsztyn24.com##.katalog_newsletter_content
+oltaconceptstore.eu##.newsletter-col
+olympia-electronics.com###block-block-40
+omegadruk.pl###slideleft
+onebid.pl##.leftmainmenu.hidden-sm.hidden-xs.col-lg-3.col-md-3.col-xs-12 > .hidden-xs.hidden-sm
+onebid.pl##footer .footer-nav :nth-of-type(4)
+onexstore.pl##.footer-col--subscription
+oohmagazine.pl##div.widget_anthemes_video.widget:nth-of-type(3)
+opensecurity.pl,swiatoze.pl,terazprudnik.pl,zasnik.pl###mc-embedded-subscribe-form
+opera.pl##.prawyRegion > div.kontener1:nth-of-type(2)
+opinia-o-firmie.pl##footer .elp-widget
+opoltrans.com.pl##.right-footer-wrapper
+opornografii.pl##.article__newsletter
+optiva.pl##div.m_xs_bottom_30.m_bottom_50.col-sm-3.col-md-3.col-lg-3:nth-of-type(4)
+oracle.com##.cw21signup
+orange.pl###newsletterSkipLink, .opl-footer__newsletter
+orange.pl##.opl-footer-for-poc__newsletter
+orange.pl##div.u-xsmall-no-margin.u-small-margin-xl.opl-footer__linksbox.l-col-2.l-col:nth-of-type(4)
+organizatorzyimprez.pl###left > h2:nth-of-type(6), #left > h2:nth-of-type(6) ~ form
+orlen.pl##div[id$="pnlNewsletter"]
+orlenoil.pl###WebPartWPQ3
+orsay.com##.newsletter-subscription-section
+orsay.com##.orsay-newsletter
+osheeshop.eu,zlotarybka24.com###subReqForm
+ostatniatawerna.pl###footer-section-bottom > .row > div[class]:first-of-type
+ostrowiecnr1.pl###formMailingDalej
+otop.org.pl##div.mcb-section.section:nth-of-type(9)
+otwarte.eu###newsletter-box-slide
+outdoorzy.pl###ft-newsletter
+outhorn.com##footer #subReqForm > div:not(#custom776), footer #subReqForm > h3
+outsourcingportal.eu##.newsletterbox
+oysho.com##.public-news-letter-form
+p-programowanie.pl##article ~ footer > .post-footer:nth-of-type(2)
+paatal.pl###menu_newsletter_ft
+pajacyk.pl##.aside-newsletter
+pakamera.pl###nwsltr2
+pakamera.pl##.nws5, #nwsltr2 > i
+pakamera.pl##.nws
+palacmierzecin.pl##.newsletter-hld
+paleosmak.pl###emailSub-form
+pangrono.pl##.sidebar > .widget_bloomwidget.widget
+pannaannabiega.pl##.zl_newsletter
+panoptykon.org##.social_n
+pantabletka.pl##.ds-newsletter
+pap-mediaroom.pl,pap.pl,~zdrowie.pap.pl##div[class] > a[href="/newsletter/form"]
+paperconcept.pl##.footer-content-before
+paperconcept.pl##.footer__inner > .row
+papiernicza.pl##.clearfix.footer-top
+paranormalium.pl##div.mt.menus-right:nth-of-type(8), div.th:nth-of-type(7)
+parkersklep.pl##footer .col-xs-12.col-sm-12.col-md-3
+parkiet.com##header a.placement--marketing[href*="newsletter"]
+parkiet.com,rp.pl##.footer--newsletter
+parkiet.com,sklep.krosno.com.pl,sklepmartes.pl##.site-footer__newsletter
+parkofpoland.com###newsletter-footer
+paroc.pl##.newsletter-subscription-popup
+pasazer.com##.\].slidein.\[.box
+pasazer.com##.join
+pasazer.com##.section:nth-of-type(4)
+pasieka24.pl###Mod238
+patyna.pl##section.fw-row.row:nth-of-type(8)
+pch24.pl##.NewsletterBox
+pcomp3000.pl###LewaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
+pcworld.pl###newsletters
+pe.szczecin.pl##.py-5.section_7
+pepco.pl##.footer-nav__newsletter
+pepees.pl###footer-container > div.span4:nth-of-type(3) > div
+pepegi.eu##.wrapper_menu_newsletter
+pepejeans.com##.c-footer__subscribe
+pepito.pl##.footer-nl-social
+pepsieliot.com##.container:first-of-type > .row > .col-lg-3:nth-of-type(4)
+perfectfitness.pl###MailIndexForm
+perfekcyjnawdomu.pl##.footer > .container > .row > div.col-md-4:nth-of-type(2)
+perspektywy.pl##.col-md-4 > aside > div.moduletable:first-of-type > a[href*="/banner/1t6qegj5jb/click"]
+petner.com.pl###footer-container > div > section > div > div > div > div > div:nth-of-type(4)
+pewex.pl##.footerBanner:first-of-type
+phlov.com##.email-subscription-box
+photonrobot.com##.qodef-contact-form-7-widget
+picantecooking.com##.newsletter-block
+picodi.com##.newsletterContainer
+piekielko.com##._newsletter
+pierwszynamapie.pl,rozsadnibracia.pl###text-6
+pinkorblue.pl##div.econda-banner-click.stage-small:nth-of-type(2)
+piomax.pasaz24.pl##.newsletter-place
+pitbull.pl##.footer-blocks > .footer-block
+pixel-box.pl##.footer-newsletter-new
+pksszczecin.info##.k7_newsletter
+pl-eu.puma.com##.footer-logo-email
+pl.aleteia.org###logo-newsletter-follow, .module-newsletter-form
+pl.ejo-online.eu###footer > div > div.threecol:nth-of-type(2)
+pl.farnell.com##.sign-up-form
+pl.malwarebytes.com##.newsletter-refresh
+pl.nowystyl.com###freshmail-button.freshmail__button
+pl.oriflame.com##.ui-newsletter-container
+pl.pandora.net##.bottom-email-signup
+pl.pandora.net##.Footer__newsletter
+pl.primo.com##footer .p-columns:nth-of-type(2)
+pl.ryobitools.eu##[id*="RyobiFooterSignUp_txt"], [id$="RyobiFooterSignUp_lblTitle"], [id$="RyobiFooterSignUp_btnSignUp"]
+pl.ryobitools.eu##div[class^="Footerstyles__Form-"]
+pl.silvexcraft.eu###newslet_section
+pl.sportsdirect.com##.signup-wrapper
+pl.techinfus.com##.subscription
+pl.tommy.com##.newsletter-footer
+pl.weekendmaxmara.com##.newsletter.box
+placesandplants.com###subscribe-blog-blog_subscription-2, footer div.col:first-of-type > div.widget:nth-of-type(3) > .widget-title
+planet.pl###zapis-do-newsletter
+platforma.org##.footer > .newsletter-container
+plk.pl##footer div:first-of-type > h3:nth-of-type(2)
+plock.eu##.newsletter-component
+plytki-lazienki.pl##.col-md-offset-1.col-md-12
+pocztazdrowia.pl##.pull-right.col-xs-12.col-sm-12.col-md-5.col-lg-4
+podrywaj.org###block-block-34
+podyplomie.pl##.footer > .section > .row > div:first-of-type > .form-flex
+podyplomie.pl##.navbar ~ .container ~ .section > .container > .row > div:first-of-type > .form-flex
+podyplomie.pl##.section .mb-lg-0.mb-2.col-lg-6.col-xl-5 > .form-flex:first-of-type
+pokoleniesmart.pl##.passionblogger-subscribe, .essb-subscribe-form
+pol-nor.com##.formk
+pol-nor.com##.mtz > form
+polakpotrafi.pl##.w3.block:nth-of-type(3)
+polanglo.pl##.f_newsletter
+polanglo.pl##.newsletter-footer-wrapper.container
+polemi.co.uk###dropin
+polimex.net##app-footer-top > footer > div > .row > div:nth-of-type(3) > :nth-child(-n+2)
+polish-airports.com###cookies_message_container
+polishclub.org##.small.row > .col-md-4
+polishexpress.co.uk##.ng-scope.peSection--news
+polityka.pl##.cg_newsletter
+polityka.pl##.md-side-newsletter-signup
+polnox.pl##ul:nth-of-type(3)
+polska.travel##.fixed-elements
+polskacanada.com###alo_easymail_widget_form
+polskieradio.com##.post-widget.widget:nth-of-type(4) > .post-widget.widget
+polskimarket.de,polskimarket.nl##.fn-title, #footer_newsletters, .fn-description
+polskiprzemysl.com.pl##.prenumerata-heder
+polszczyzna.pl##.eltdf-column:nth-of-type(4)
+polszczyzna.pl##.widget_yikes_easy_mc_widget
+polygamia.pl###sidebar-footer-top-right
+popvinyl.pl##.xl\:mt-0.mt-6.p-6.shadow-custom
+poradnikhandlowca.com.pl##.section-bar-newsletter
+poradnikogrodniczy.pl##.sidebar-menu > div.block:nth-of-type(4)
+poradybudowlane.com.pl###search2
+porcja.eu###footer-top-news
+porozmawiajmy.tv###text-36
+portal-sadownik.pl##div.box:nth-of-type(3)
+portalgames.pl##.columns.mimi-form.widget
+portalkryminalny.pl##footer > .container > div.row:nth-of-type(2) > div:nth-last-of-type(1)
+portalkryminalny.pl##h3:nth-of-type(11), .moduletable:nth-of-type(11)
+portalpszczelarski.pl##.element.col-3-7
+portalsamorzadowy.pl,wnp.pl##.news-box
+portalspozywczy.pl##.newsletter > .pageWidth > span:first-of-type
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(6)
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(6)
+portalspozywczy.pl##.v2.newsletter > .pageWidth > form
+posbistro.com##div[aria-label="Zapisz się na gastronomiczny NEWSLETTER"]
+poscielone.pl##.newsletter-forms
+posnania.eu##.footer__form > div[id^="wpf-contact-form"]
+powerflex.pl##.rc-box-newsletter, #footer_newsletters
+powiat-piaseczynski.info###gkSidebar > div.box:nth-of-type(3)
+powiatlobeski.pl###nl
+poznan.factory.pl##.pane-2.pane-custom.panel-pane
+praca.antyweb.pl##.bg-blue.hero
+praisethewear.com##.elementor-element-5311d84
+prawo.pl##.wkNewsletterBlock
+prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
+prawokonsumenckie.pl##.container > .row > div.col-lg-3:nth-of-type(3), div.g-mb-50:nth-of-type(4)
+prawokonsumenckie.pl##.g-bg-secondary
+press.pl##.pressletter
+prestashop.com##.footer-nl
+prezydent.pl##.js-widget-subscription.widget-subscription.widget
+prgok.pl##footer .col-sm-9.col-xs-12
+primavika.pl##.container-inner.bottom > .box3.box
+primocappuccino.pl##.sidebar-box > div.widget-box:nth-of-type(10)
+print-me.pl##.elementor-element-856293d
+printexpress.pl##.widget_bloomwidget.et_pb_widget
+prnews.pl##.newsletter-header, a[href*="/newsletter"]
+profeto.pl###part-newsletter > h2, #part-newsletter > form
+profinfo.pl##.newsletter__main
+projektowanie-wnetrz-online.pl##.e-container.e-container--column.elementor-element-fe48947.elementor-element
+promapolska.pl###newsletter_footer_form_ajax
+promienieslonca.pl###footer-in > .row > .col-sm-12.col-md-4
+propaganda24h.pl###fx-before-footer
+propertynews.pl##.nl.one
+proshop.pl##div.col-md-6.col-sm-12:nth-of-type(2) > .row > .site-row-margin-top.col-sm-6
+prostyzysk.pl##.entry-content > iframe[id^="fm-"].lazyloaded
+proto.pl###block-entityform-block-newsletter
+prusa3d.com##div[class*="ScrollToTop__Wrapper"]
+pruszkow.pl###custom_html-7
+pryskaj.pl##.fx-newsletter
+przepis-na-lo.pl###sidebar > div.widget:nth-of-type(3)
+przepisnazdrowie.eu##.newsletter-mod
+przepisy.pl##.newsletter-wrapper-inner
+przewodnik-katolicki.pl##.news-stopka, .newsletter-belka
+przychodnie-grudziadz.pl###footer\#1
+psycholog-pisze.pl###text-17
+psychologiazycia.com##.mymail-form, .newsletter > .title
+ptakmoda.com###newsletter_block_bottom
+ptbs.pl##section.mb70.mt50.contact-section:nth-of-type(5)
+ptfarm.pl##.flexWrap.flex.col-md-4
+ptfm-slask.pl,themuba.com###newsletter_container
+publicat.pl###section-right-newsletter
+publolek.pl##.footer-widget-2.widget-column
+pulshr.pl##.box-1 > p:first-of-type
+pulshr.pl##.form-1
+pulshr.pl##h2 > a[href="http://www.pulshr.pl/newsletter.html"]
+pulsmedycyny.pl###id-newsletter-box
+puma.com##.puma-footer__newsletter
+puszcza.tv##.color-white.newsletter-container
+pwc.pl##.pwccol2-longform-c0.parsys_column
+pwsk.pl###custom_html-8
+pyrkon.pl##.c-tnp__subscription-minimal
+pzlsedziszow.pl###newsletter_pzl-2
+qagile.pl##div.footer-widget:nth-of-type(2)
+qnapclub.eu##.footer-block.col-xs12.col-sm-6.col-md-3
+qr-online.pl##div.col-md-4:first-of-type > form, div.col-md-4:first-of-type > p, h3.footer-widget-title:nth-of-type(2)
+questus.pl##.newslett-main
+quiosque.pl##.nl-container, .mini-banner
+r-gol.com##.wrapper--newsletter
+r.pl##.newsletter-footer-box
+rabat-detal.pl##.newsletter-title
+racjonalista.pl###oTxt > form
+radex.com##body > div[style*="position"][style*="fixed"]
+radiopiekary.pl###mauticform_wrapper_dodaniedooczekujacychradiopiekary
+ray-ban.com##.rb-footer__mail
+razemdlaradomki.pl###lewe_menu div[style]:nth-of-type(6)
+rebel.pl##td:nth-of-type(5) > table
+recea.pl##.fx-newsletter-box
+recman.pl##.col-md-8.col-sm-7.col-xs-12
+redcoon.pl###j-newsletterForm
+redro.pl###footer .subReqForm
+reformowani.info###email-subscribers-2
+rehus.pl###text-4
+rekinfinansow.pl##.cp-do-not-close-inline
+rekinysukcesu.pl###footer div.row:first-child div[id^="newsletter-code-"] ~ div[id^="newsletter-code-"] ~ div
+rekinysukcesu.pl###footer div.row:first-child figure.mockup-footer
+remprodex.com.pl##.col_three.footer_widget
+rena.pl###newsletterBottomForm
+renowa.pl##.col-4.col-sm-6.col-md-3
+reserved.com##.footer-links > .accordion > li.accordion-cat:first-of-type > .accordion-cat-title
+resortpro.ht-int.com###i-username
+rfbenchmark.pl##.col-lg-3.col-md-3.col-sm-4.col-xs-12
+ridex.pl##.mcSignupModule
+rik.pl##.footer_col_4 > div:nth-of-type(3)
+rolmet.biz.pl##.pt-subscribe
+rolnik.pl###block-bt
+rolserwis.pl###newslett
+romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
+rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
+rosenthal.pl##.st_news_letter_1
+rossmann.pl##.join-nsl
+rovus.pl##.footer-lower div.links:nth-of-type(4)
+royal-dental.pl##.s__newsletter
+rozterkistartuperki.pl##.mab-pad
+rp.pl##[data-mrf-section="Article / Body"][data-gtm-section="page:article/section:body"] ~ div #salesmanagoIframe
+runeat.pl###subscribe-blog-blog_subscription-2
+runeat.pl##.line:nth-of-type(2) > span
+runeat.pl##.widget:nth-of-type(2)
+rybnicki.com##.informator-rejestracja
+ryms.pl###frm-newsletter
+rynek-kolejowy.pl##.zawartoscBox > .ok
+rynek-rolny.pl##.punica-newsletter-widget.widget
+rytmynatury.pl###custom_html-11
+rywalbp.pl###sliding_box1
+sadyogrody.pl###col2 .tabs .social.mail
+sadzonki-truskawek.eu,xopero.com##.widget_newsletterwidgetminimal
+salaterka.pl##.fca_eoi_form
+salonyhoff.pl###section_subReqForm
+samorzad.pap.pl##.block-newsletter-block
+sandecja.org##.newsletter_bg
+scandinavian-clinic.pl###footer .footer-sidebar4
+scanner.com.pl##div.span3.top-in:nth-of-type(3)
+sck.com.pl,sck.pl###ms-newsletter-box
+scyzoryki.net,zielonysklep.com###footer_newsletters
+sdk.waw.pl##.mod_acymailing
+sekurak.pl##.widget_text.widget:nth-of-type(4)
+selene.pl##.blog-full-wrapper-newsletterin
+selgros24.pl###formNewsletter
+selgros24.pl##.box-last.box > h2
+selgros.pl##.home-box3
+senetic.pl##.nws-popup__wrapper
+senetic.pl##.nwsBlock
+seniorplus.edu.pl###boczne_ikonki > a[href$="newsletter"]
+sfinks.info##.t_align_r.m_xs_bottom_30.m_bottom_20.m_xs_top_0.m_top_40.col-sm-6.col-md-6.col-lg-6
+shop.albione.eu###newsletter-slide
+shop.massdnm.com,taniefototapety.eu###menu_newsletter
+shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
+shopgracz.pl##.newsletter_footer_block li:nth-child(-n+2)
+showroom.pl##.news-signup
+silesiasem.pl##.entry-content > form
+silesion.pl##.pageFooter__newsletter
+sinsay.com##.home-ss20-newsletter
+sipma.pl###newslet
+site-call.pl##.wpc-subcribe .form-subscribe
+skionline.pl##.boks_tytul_out_cp:nth-of-type(3)
+skionline.pl##.boks_tytul_out_cs, .okno_gl_s > .boks
+skionline.pl##td:nth-of-type(2) > .boks:nth-of-type(3) > tbody
+sklep-agrohandel.pl##.footer_top_area
+sklep-elektron.com###newsletter-form
+sklep-milovia.eu###m_footer_bg
+sklep-nasiona.pl##.footer-stay-connected
+sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
+sklep.audiopunkt.com.pl###sec-newsletter > .banertab
+sklep.autopart.pl###newsletterPanel.abs-newsletter-panel
+sklep.barcikowscy.eu##.blocknewsletter
+sklep.benedetto.com.pl##.NewsletterSubscribeFormPopupContainer, .NewsletterSubscribeFormOverlay
+sklep.bispol.pl##.footer-item.i4
+sklep.carinii.com.pl##.footer > .email-signup
+sklep.elitpolska.pl##.newsletter-block-sticky
+sklep.grupamagnum.eu##.leftcol > #box_custom81 > center > iframe[src^="https://media-grupamagnum.ipresso.pl"]
+sklep.gry-online.pl##.mt, #add-newsletter-email, #add-newsletter
+sklep.jelp.pl###freshmail > .pull-left
+sklep.kawa.pl##.NewsletterPopup
+sklep.kotrak.com##.newsletter1-wrapper > * > *
+sklep.legia.com##.ty-footer-menu > .row-fluid > .span8
+sklep.lemoniade.pl##.container > .row > div.col-md-6.col-sm-6.col-xs-12:nth-of-type(2) > .row
+sklep.lobos.pl##.form.col-md-8 > form
+sklep.mariall.pl##.NewsletterTlo
+sklep.maximus-solaria.pl##.heading-subscribe
+sklep.milicon.eu##.box.newsletter, .menuBox_Newsletter
+sklep.nowaera.pl##.button__newsletter
+sklep.olekmotocykle.pl##.footer-col4 > h3.footer-colTitle:first-of-type
+sklep.polityka.pl###sidebar1 > div:nth-of-type(2)
+sklep.polska-zbrojna.pl##.newsletter-widget-4
+sklep.powermat.pl##div.foot-group:nth-of-type(4) > .list-group > h5 > a[href="#"]
+sklep.rai-bud.pl##div.CalyBox:nth-of-type(3)
+sklep.regalia.eu##footer > .row > .footer-block:only-child
+sklep.sizeer.com##.b-footer_newsletter
+sklep.skrypt.com.pl##.footer-conteiner > ul:nth-of-type(3)
+sklep.spidersweb.pl###nslt
+sklep.tonerylublin.pl##ul:nth-of-type(4)
+sklep.vileda.pl###newsletter-category
+sklep.zakrecovnia.pl##.shb-newsletter-background
+sklepagnex.pl###box_custom99 > div
+sklepkoszykarza.pl###footer__newsletter
+sklepkupiec.pl##.footer-block.newsllt
+sklepsaturn.pl,sprzet-fryzjerski.pl###social > a[href="/newsletter/add"]
+skorzany.com###zapisz-sie
+skuteczneraporty.pl##.post .wf2-embedded.grwf2-wrapper
+slaskietrendy.pl##.kp-newsletter-widget.widget
+slawomirzawislak.pl##.moduletable-newsletter
+slepsksuwalki.pl##.site-footer .subscribe-header, .site-footer .subscribe
+slimebox.pl##.newsletter-widget-5
+slimwallet.pl##.newsletter-block-footer
+slusarczyk-bmw.pl###musli > li:nth-of-type(3)
+smaczny.pl##.stopka-smaczny > .col-md-8.col-xs-24:first-of-type
+smaker.pl##.newsletterComponent
+smakistyl.pl##footer > div.container-fluid:first-of-type > div > div:first-child
+smalltronic.pl##.NaglowekNewsletter, .ModulNewsletter
+smart-grids.pl##main > .container > .row > div > .row > div.modules-arscreo:nth-of-type(2)
+smartbake.pl##.widget_mc4wp_form_widget.ashe-widget
+smyk.com###newsletter-link
+snowbitch.pl###emailNewsForm
+soczewki365.pl###footer > div.row:nth-of-type(2) > .col-md-5
+soczewki365.pl###jOverlayContent, #jOverlay
+soczko.pl##.subscribe_f
+sodexo.pl###content > #sg-form-row
+sofly.club##.newsletter-widget-1
+softekspert.pl##.left-block:nth-of-type(3)
+softnet.com.pl###footer_section > .ogranicznik > div > div:nth-child(3)
+sokolow.pl##.clearfix.ds-1col.paragraph--view-mode-default.paragraph--type-block.paragraph
+solidnedrzwi.pl##.newletter-subscribe-container
+solnemiasto.eu##.alo_easymail_widget
+soniadraga.pl##.nl_bot
+sonos.com##.newsletter.columns.medium-6
+sopot.naszemiasto.pl###dodaj-newsletter
+soselectronic.pl##.col-footer-newsletter.col
+speak-up.pl##.plywajacy-formularz-container
+speckable.pl##.ins-l-footer__col-newsletter
+spedycje.pl##[href*="newsletter_dodaj/"]
+spidersonline.pl##.st_news_letter_container
+splendear.com##.footer-top .col-12.text
+sport-shop.pl##.newsletter_fotter
+sport-transfer.com.pl##.menuFooter > .container > .row > div:nth-of-type(4)
+sportbazar.pl##.news-desktop
+sportisimo.pl###newsletter_bottom
+sportplaza.pl##.sekcja-newsletter > .container
+sportprofit.pl###footgroup8 > ul > .hidden.head
+sportslaski.pl##.containerright5
+spotawheel.pl##.footer-top__subscribe
+sprawdzimy.info##.gform_widget
+sprawdzonakuchnia.pl##.essb-subscribe-form-inwidget
+spreadshirt.pl##.ft-newsletter
+spyshop.pl##.info > li.item:nth-of-type(2)
+srebrnystyl.pl##.footer-conteiner ul:nth-of-type(4)
+stadionwroclaw.pl##.footer__newsletter-wrapper .footer__header
+staleo.pl##.m-100.s-100.col-9 > .cols-12 > .s-hide.m-hide.col-3 > section:nth-of-type(2) > .blue.section-title
+staleo.pl##section:nth-of-type(2) > aside.widget-left
+starkl.pl##li:nth-of-type(3) > h2:nth-of-type(2)
+stary.sacz.pl##.f_in2_nletter
+stawiszynski.org##.elementor-element-52bd08e
+stekro.pl##.stopka1
+stokrotka.pl##.swap.wdwl--banner-wrapper
+stolicawolnosci.pl##.foot-beam-full-color
+stopnop.com.pl##div.col:first-of-type > .footer-widget
+store.canon.pl##.primary-signup
+stosunki-miedzynarodowe.pl##.art-sidebar1 > .art-block
+stradivarius.com##.page-footer-news
+straz.gov.pl##.col-xs-10.col-sm-10.col-md-8.col-lg-3
+strefa-zakupowa.pl##.moduletable4
+strefainwestorow.pl###newsletter-ipo
+strefakursow.pl##.b-site-footer__margin-right-30.u-flex-direction-col.u-display-flex
+strefapmi.pl##.col_last.right-edge.one-fourths.span_3.col
+strefaucznia.pl##.block.st_news_letter_4
+stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of-type(3)
+subiektywnieofinansach.pl##.et_pb_cta_0.et_pb_text_align_center.et_pb_bg_layout_light.et_pb_module.et_pb_promos
+subiektywnieofinansach.pl##.et_pb_row_4.et_pb_row
+superkoszyk.pl##.block-subscribe-footer
+surojadek.com##.formkit-form.seva-form
+suwalki24.pl###content_right > .box:nth-of-type(7)
+suwalki24.pl##.box:nth-of-type(5)
+suwalszczyzna.com.pl##.widget_recent_news
+swappie.com##.newsletter-subscription-box
+sweetliving.pl##.llg_footer_col_three.col-sm-3 > h4:first-of-type, #llg_newsletter
+swiatbaterii.pl##div.col-md-4:nth-of-type(3) > div:first-of-type
+swiatkoszy.eu##.footer-newsletter > .container > div.row:first-of-type
+swiatkoszy.eu##.footer-newsletter__left
+swiatoze.pl##.post-subscribe
+swiss.com.pl##footer #footer div.grid_3:nth-of-type(3) > :not(#fsocial)
+swissfon.pl##.last.footer-widget
+symbiosis.com.pl##.m-footer_newsletterContainer
+sypien.pl###pum-4229
+szachownica.com.pl###footer-secondary
+szachownica.com.pl##.square-newsletter
+szaron.pl###blocknewsletter > h4, #blocknewsletter > form
+szaron.pl###blocknewsletter-panel
+szarotka.eu##.Footer_L
+szerokadroga.pl##.gum_footer_widget.widget:nth-of-type(3)
+szopi.pl##footer .container-fluid > .row > .col-5
+szopi.pl##footer .widget_mc4wp_form_widget.scisco-widget
+szukampracownika.monsterpolska.pl###mailreg_cont
+szybkanauka.pro##.tcb-flex-center.tcb--cols--3.tcb-flex-row > div.tcb-flex-col.tve_empty_dropzone:nth-of-type(3)
+tabelaofert.pl###newsletter_stopka
+tabloidonline.blog,techno-senior.com##.widget_blog_subscription
+tally-weijl.com##.newsletter-quick-mail
+tally-weijl.com##.page-footer .newsletter-container
+tamaj.pl##.lof-block.lofadva-block-4 > .lof-block-wrap > h4
+tanie-loty.com.pl##.mod-newsletter-bottom, .alerts
+taniekomputery.pl###BottomBox .column-last.column
+tanienurkowanie.pl###mauticform_oknewsletternurkowanie
+tanio.co##.page-dashboard-home__newsletter-primary
+tapenda.pl##a[href="/newsletter/"]
+targi.krakow.pl###HTMLContainer-52297
+taxxo.pl###aq-block-27-13
+tb-polska.pl##.customtab-lewa > ul > li:nth-of-type(3)
+tcl.com##.cm-footer-wrapper > .clearfix.cm-footer > .cm-footer-r > .cm-footer-r-b > div:first-of-type
+teamviewer.com##.footerNewsletterArea
+teamviewer.com##.wd-newsletter-bar
+teatropole.pl###footer > .container > .el_before_av_one_fourth.flex_column:nth-of-type(4)
+teatropole.pl###wp-flybox_tab1
+teatrslaski.art.pl##.row:nth-of-type(14)
+teatrsyrena.pl###form-newsletter-email-g
+teatrziemirybnickiej.pl###newsletter-info-txt
+tech.money.pl##.widgets > .shortway-exchange
+techsterowniki.pl##.col-sm-8.col-xl-3.col-lg-4.col-md-6
+teksciory.interia.pl##.newsroom
+telekarma.pl###footerInfo > .row div.box5:nth-of-type(3)
+telekarma.pl###footerInfo-newsletter
+telepolis.pl,tlp.is##footer > .footer-1 > .container > .row > .col-xl-3.col-12
+telepolska.pl###box_1
+teletropiciel.pl## .krotkie__zapytanie
+telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
+telix.pl###mailster_signup-3
+telko.in##ul > li > .tip[data-tip="Biuletyny TELKO.in"]
+temi.pl##.module:nth-of-type(8) > div > div > div
+teraz-srodowisko.pl###footer-newsletter-container
+termyszaflary.com##footer div.col-md-4:nth-of-type(3)
+terrymoda.pl##footer > .grid-container > div[class]:nth-of-type(2)
+tesco.pl##.leaflets_subscribe_itesco
+testerzy.pl##footer > .container > div.row:first-child > div:nth-of-type(3)
+tfkable.com##.newsletterBox
+tge.pl##.tge-newsletter-form
+tge.pl##footer .card > .card-block
+thermano.eu##.footer-box--wide
+thermomix.vorwerk.pl##.footer__newsletterform
+thomas-krenn.com##.tk-footer-newsletter
+tim.pl###newsletter-component-footer
+tiptop.com.pl###content > .row > #bg_orange
+tkmaxx.pl##header li.menu-item:nth-of-type(2), form[class*="webform-submission-newsletter"], form[id*="webform-submission-newsletter"]
+tkom.pl###panelNEWS
+tme.eu##.c-newsletter
+tokfm.pl##.container > ul > li:nth-of-type(3)
+tomi.pl##.ty-footer-menu .ty-mainbox-container
+tooway.pl##.contact3
+topagrar.pl##.sidebar__box--newletter
+toys4boys.pl##.footer-container getresponse-form
+tp-link.com##.tp-follow-subscribe
+tpi.com.pl##.cmn-newsletter
+traktor.com.pl##.footer-top4.col-md-3.col-sm-6.col-12
+traktorpool.pl##div.md\:py-16.p-4.border-t.app\:hidden:nth-of-type(2)
+trans.info##.newsletter-popup
+travelplanet.pl##.col-footer-newsletter-block
+trec.pl##.b-footer-top__newsletter > :nth-child(-n+3)
+triny.pl##.newsletter-sub-box
+trivago.pl###js-newsletter-registration
+triverna.pl##.ssPopupNewsletter, .ssHeaderNewsletter, .ssFooterNewsletter
+trojmiejska.com###st_news_letter_1
+tropy.pl##.footer-collumn-6
+trybawaryjny.pl###gr-form
+tsintegracje.com##.contNewsletter
+tucholanin.pl###sidebar-bottom > ul.widget-container:first-of-type
+tuolawa.pl##footer#app-footer > div > div:first-child > div > div > div:nth-child(3) > *
+tustolica.pl###menumini > li:nth-of-type(3)
+tvn.pl##.btn-newsletter, .footer-col:nth-of-type(4) > .footer-heading:nth-of-type(2)
+tvndiscoverytalents.pl##.c-sign-newsletter
+tvokazje.pl###newsletter_block_popup, .newsletter-image-short
+twardepierniki.pl##.newsletter-panel
+twojahistoria.pl##.pb_wysija
+twojakoszulka.eu##.stopka .trzecia
+twojcel.to###footer-column-1 > .column-inner
+twojekwiaty.pl###newsletter-wrap > .newsl-wrap > *
+twojeobuwie.pl##a[href*="twojeobuwie.pl/newsletter.php"] > img
+twojsklep.pima-agro.pl##.newsletter > .row
+tygodnik-rolniczy.pl##.sidebar > a[href="/newsletter/new/"]
+tygodnikdzialdowski.pl##.size-33.g-block:nth-of-type(3)
+tygodnikprzeglad.pl###sidebar > .widget.widget-2
+tylkogrecja.com##.subscribe-email-wrapper
+u-jazdowski.pl###popup_banner > [href="/newsletter"]
+ubierzfona.pl##.medium--one-half.large--one-half.grid__item:nth-of-type(2)
+uchwyt.pl###newsletterdiv
+ulicaekologiczna.pl###newsletter_wrap, .sidebar.columns.large-5.small-15
+um24.pl##.jsNewsletter
+undiz.com##.nsw-und-ft
+unia-sklep.pl##.et_pb_module .mc4wp-form
+unia.pl###bottom1, #bottom2
+union-investment.pl##.bottom-left.col-xs-12.col-sm-6.col-md-5
+uniwexaudio.pl##.container-fluid .pull-right.col-xs-12.col-sm-3
+up8.com##.b-footer_nsltr, .b-infoBox_newsletterInner
+upacjenta.pl##.newsletter-wp
+upominki24.pl##.footer-container > div > .row > div[class]:nth-of-type(4)
+urbancity.pl##.box2
+urbnews.pl##.sb-widget:nth-of-type(4)
+usg.com.pl###panel2
+ustolema.pl##td:first-of-type > div > div:nth-of-type(3)
+ustyle.pl###footer-widgets > .col-sm-3:first-of-type
+uwmfm.pl###ufm-newsletter
+uwookiego.pl##.uwoo-newsletter-form
+uzdrowiska-klodzkie.pl##.footer > .row > .columns.medium-4
+uzdrowiskowespa.pl##.sidepanel-newsletter-sms
+v1ncent.pl###main_newsletter
+vangraaf.com##li.pc-social-bar__item:nth-of-type(3)
+vapefully.com##.module-newsletter-foot
+varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
+varsoviaapartamenty.pl##.js-override-form.footer-ezine__form-hld
+venezia.pl##.footer-rwd-newsletter
+verdykt.pl##.contact.item
+vertedrzwi.eu##.newsletter_fixed_button
+vezzi.pl##.box-newsletter-lp
+vichy.pl###exposeMask
+victoria-niemodlin.pl##div.box_margin:nth-of-type(2)
+vidart.com.pl##.moduletableacy-email-footer
+vidaxl.pl##.newsletter-item
+villaitalia.pl##div.list-group.foot-group:nth-of-type(4)
+villeroy-boch.pl##.global-footer-services-newsletter
+virgobooks.pl##.block_newsletter-wrapper
+virtualo.pl##.banner-newsletter-wrapper
+virtualo.pl##.newsletter-bottom-wrapper
+vissavi.pl###newsletter-header-holder
+vistula.edu.pl###vistula-newsletter
+vistula.pl##.three_footer__single--newsletter
+vistula.pl#?#.footer-top-bar.row > div:-abp-has(.footer-newsletter)
+vivaldi.com###newsletterpromo
+vivo-shopping.com##.site-newsletter__content
+vogue.pl###homepagenewsletter
+vox.pl##.footcol5.onecol.col-md-2
+vuch.pl##footer > .row > .nl-column.large-3.medium-6.xsmall-12.columns
+wabisabi-store.jp##.footer-newsletter_block
+wakacje-hiszpania.pl###newsletterteaser
+wakacje.pl##[data-area="newsletter"]
+wakacje.pl##footer > form[class][method="post"][action*="/newsletter.html"]
+waldtour.pl##.mailpoet-newsletter
+walmark.pl##.footer div[class]:nth-of-type(3) > .footer__heading
+walutomat.pl###newsletter-signup-box
+wamiz.pl##footer > div:nth-child(2)
+warsztatowski.com##div.footer_block.links.col-md-4:nth-of-type(4)
+waszaturystyka.pl##.platform-content:nth-of-type(2)
+waw4free.pl###komunikat_newsletter, #spolecznosci > a[href="newsletter"], .footer-box:nth-of-type(2)
+wbpg.org.pl###block-freshmail-freshmail-block, #home_newsletter
+wearmedicine.com##.newsletter, #nlThanks
+webcamera.pl###footer-newsletter-box
+webinsider.pl##.gofollow[onclick*=Newsletter]
+websiteplanet.com##.sub-newsletter
+wegannerd.blogspot.com###HTML7
+wegeguru.pl##.bs-standard.home-header > div > .form.col
+wenahome.pl##.offer-bar--blue-to-red-gradient.offer-bar--shown.offer-bar
+wenahome.pl##div.footer__column:nth-of-type(5)
+weranda.pl,werandacountry.pl##.newsletter-sign-block
+werandacountry.pl##div.gkmod-3.box:first-of-type > .header
+werandafamily.com##.home-nesletter
+werandaweekend.pl##.right > div.title:first-of-type
+westwingnow.pl##[class^="ClubBarBanner__StyledWrapper"]
+wiadomoscihandlowe.pl##.footer__top > .row > div[class]:first-of-type
+wiadomoscispozywcze.pl###headerNewsletter
+wiara.pl##.nsl
+widzialni.pl##.widget_widzialni_newsletter
+wiedza24h.pl##.roundedCorners5.floatRight.ltPanel
+wierchomla.com.pl##.footer-top > .center-wrap > .footer-left
+wiescirolnicze.pl###hp-newsletter
+wikirose.pl###HTML5
+winiary.pl###NewsletterBoxPdf
+winicjatywa.pl###ostrzezenie18 > h2:nth-of-type(2)
+winicjatywa.pl###ostrzezenie18 > p:nth-of-type(3)
+winicjatywa.pl##div.col-md-3:nth-of-type(3)
+winicjatywa.pl##label:nth-of-type(2)
+wirtualnemedia.pl##.extra_news > .header_blue
+wirtualnemedia.pl##.newsletter-popover
+wirtualnyspac3r.pl###footerGroupLayer_pl ~ #element_2176
+wirtualnyspac3r.pl###footerGroupLayer_pl ~ #element_2218
+wiszniowka.pl##[id^="fm_form_"]
+witcherschool.com##.formularz
+wittchen.com###app-footer-newsletter
+wizaz24.pl##.footer > div > div > div:nth-of-type(7) > h3, .footer > div > div > div:nth-of-type(7) > ul:first-of-type
+wkret-met.com##.block-simplenews.block
+wloczkiwarmii.pl###\#newslatter
+wndcomp.pl###PrawaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
+wnp.pl###socialBox > .wrapper
+wnp.pl##.social > li:first-of-type
+wnp.pl##div[class^="box"] > .pageWidth > form[action*="/newsletter/"]
+woblink.com###products-group-newsletter
+woda.com.pl##nav > div:nth-of-type(2) > form
+woodrepublic.eu###newsletter_subscribe
+woolloop.pl###text-8
+woolloop.pl###text-10
+worldbank.org##.lp__footersearch_section
+wprost.pl##.newsletter-plugin
+wprost.pl##.stay-updated
+wroclaw.pl##.boxNewsletterRegister
+wroclawfashionoutlet.com##.via-footer__newsletter-signup
+wrozka.com.pl##td:first-of-type, .newsletter_right, .footer_newsletter_container
+wrp.pl##.vc_general.vc_cta3
+wsei.edu.pl###wsei-footer > div.vc_col-sm-3.wpb_column:nth-of-type(5)
+wseit.edu.pl###btn-newsletter
+wspieramrozwoj.pl##.newslatter
+wszystkiegoslodkiego.pl##.ws-footer__center > div > div > div > div > .text-lg-left.col-12
+wtk.pl###newsletter-animated-box
+www.auchan.pl##.footer-newsletter-block > * > * > *
+www.fotouslugi.pl##.cw_newsletter
+www.galeriehandlowe.pl##.newsletter-box-blue-big
+www.kinnarps.pl##.js__hubspot-form.signup-block
+www.lenovo.com##.m-footerSignUp
+www.lidl.pl##.footer__flap
+www.mazury.pl##.footer .stopka-prawa
+www.milmag.pl##.formNewsletter
+www.milmag.pl##div.foldMid.span_4_of_12.col:nth-of-type(2) > h3.footerLabel:nth-of-type(2)
+www.onet.pl##.popupNotif > .bellIcon
+www.ozogtomczykowski.pl##div.footer-col-left:nth-of-type(2) > .footer-tytul, div.footer-col-left:nth-of-type(2) > div:nth-of-type(-n+2)
+www.pfm.pl##div.footer-box:first-of-type
+www.porta.com.pl##.additional-links.row > form, .newsleter-box
+www.porta.com.pl##.newsletter--section .newsletter--content
+www.porta.com.pl##.newsletter--section .newsletter--head
+www.ppr.pl##div.col-md-4:first-of-type, div.czarna.col-md-12:nth-of-type(2) > div.checkbox
+www.prestashop.com##.blog-post-newsletter
+www.rp.pl##.page-footer__mk
+www.telepizza.pl##.szl.zapisz.tile
+www.wittchen.com##.wg-row > .footer__newsletter-box--wrapper > .newsletter-box__header--wrapper, .footer__newsletter-box--wrapper #newsletterForm
+wwwlosy.pl##section.fioletowe-linki
+wybierzteraz.pl##.c-footer > .o-wrapper > .o-flex--grids.o-flex > .o-flex__item:nth-of-type(2)
+wyborcza.biz,wyborcza.pl##.foot-summary-buttons-share-newsletter
+wyborcza.pl###newsletterDM
+wyborkierowcow.pl##.td_block_template_8.tagdiv-type.tdi_3
+wybrzeze24.pl##.fr.col-3.col
+wydajnykomputer.pl##.entry > form > p:nth-child(-n+2)
+wydarzysie.pl###footer > .container > .tparent > div.tcell:nth-of-type(3)
+wydawnictwokobiece.pl##.panel-widget-style-for-13856-2-2-1.panel-widget-style > .textwidget > h3:nth-of-type(2) > strong, #text-6 > .textwidget > h4:nth-of-type(2), #text-6 > .textwidget > p:nth-of-type(5)
+wydawnictwoliterackie.pl##.newsletter_bcg
+wyklikane.pl##.post .mc4wp-form
+wylecz.to##.portlet-box:nth-of-type(4)
+wylecz.to##.portlet-newsletter
+wymarzonyogrod.pl###contactable, #newsletter_ajax
+wysokienapiecie.pl##.topbar__item.e-open-newsletter-box
+xlm.pl##.newsletter-promo-cont
+yerbanot.com###email-subscribers-3
+yes.pl##.footer-middle
+yieldbird.com##.hidden-widget.float-widget
+yoursclothing.pl##.footer-v2__info-items > .row > .col-sm-6
+youtubersi.pl##.newsletter.container, .click_news
+yves-rocher.pl##.l-footer__services div.service__column:nth-of-type(2) > div.service__box:nth-of-type(2)
+yves-rocher.pl##.service__column:nth-of-type(2) > .service__box:first-of-type
+zadowolenie.pl###NewsletterLP
+zadowolenie.pl##.b-adZone_wide:nth-of-type(7)
+zadowolenie.pl##.image_widget.widget > .js-imageWidget
+zaffiro.shop###newsletterWidget
+zakamarki.pl###newsletter-validate-detail
+zakoplan.pl##.footer-row > div.columns:nth-of-type(4)
+zakupy.auchan.pl#?#div[class][content="[object Object]"][add-background="true"] section:-abp-has(> h3:-abp-contains(Zamów nasz newsletter) ~ form)
+zakupydladziecka.pl##.modNewsltter
+zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
+zamek-krolewski.pl###footer_top
+zapiskizeswiata.pl###mc_embed_signup > #mc-embedded-subscribe-form
+zara.com##.layout-footer-newsletter
+zaradnyfinansowo.pl##.widget_subscribe_sidebar_czyt.widget, .widget_subscribe.widget
+zarzadcy.com.pl##.menu_right > div:first-of-type
+zawady.com.pl###subscribe
+zdobadzkobiete.pl###access
+zdrowie.pap.pl##section ~ a[href="/newsletter/form"]
+zdrowie.wprost.pl##.newsletter-plugin-info
+zegarek.net##footer > .backGroundX.container-fluid > .container
+zegarkiipasja.pl###contactBoxForm
+zeropln.antyweb.pl##div > .relative.bg-grey-light
+zhp.pl##.static-area.mh-el:nth-of-type(5)
+ziaja.com###newsletter-top
+ziaja.com##.footer-bar > div > .newsletter-form-sm
+zielonepogotowie.pl###footgroup_newsletter
+zielonyogrodek.pl##.acymailing_module_form
+zikom.pl##.vertical-button
+zlotoryjska.pl##a[href="/newsletter.html"]
+znak.com.pl###subBox, #subBoxMini
+zooart.com.pl##.z_leftnewsletter
+zooplus.pl##.Newsletter-module_newsletterBackground__2bq52
+zrobtosam24.eu##.col-newsletter-box
+zryjzdrowocatering.com##.footer-contacts > .row > div:nth-child(2)
+zus.pox.pl##.moduletable:nth-of-type(5)
+zus.pox.pl##div:nth-of-type(3) > center
+zwierciadlo.pl##.post.boksborder > aside.boxappla:first-of-type
+zycie.pl##div.icon-box:nth-of-type(4)
+zyciepabianic.pl###col1 > .widget:nth-of-type(3)
+zyciepabianic.pl###widget-newsletter
+zyxel.com###block-newsletter-footer
+!
+!
+! Ogólne filtry
+/btn-newsletter
+/button/newsletter.jpg
+/wp-content/plugins/wysija-newsletters
+!~apteka.sloneczna24.pl,~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.x-kom.pl,~mediaexpert.pl,~pap-mediaroom.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl,~fielmann.pl##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"])
+!~lp.morele.net,~pl,~lp.al.to,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"]):lang(pl)
+~activejet.pl,pl##.newsletterBox
+~aurum-optics.pl,pl##.footer-newsletter
+~automatykab2b.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
+~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
+~dietyodbrokula.pl,~mediaexpert.pl,~muzyczneradio.pl,pl##.newsletter-form
+~dron.pl,pl##.widget_wysija
+~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
+~mediaexpert.pl,pl##.form-newsletter
+~pap.pl,pl,~poradnikprzedsiebiorcy.pl###newsletter-form
+~pip.gov.pl,pl##.newsletter-content
+~pl###box_newsletter:lang(pl)
+~pl###menu_newsletter:lang(pl)
+~pl###newsletter:not(.modal):lang(pl)
+~pl##.block-newsletter:lang(pl)
+~pl##.block_newsletter:lang(pl)
+pl###box-newsletter
+pl###box_newsletter
+pl###email-subscribers-2
+pl###footer-newsletter
+pl###footer-newsletter-subscribe
+pl###footer_newsletter
+pl###footer_newsletters
+pl###footerNewsletter
+pl###home_newsletter
+pl###mailchimp-top-bar
+pl###mc_embed_signup_scroll
+pl###newsletter-container
+pl###newsletter-footer
+pl###newsletter-promo
+pl###newsletter-signup
+pl###newsletter_bar
+pl###newsletter_block
+pl###newsletter_block_footer
+pl###newsletter_box
+pl###newsletter_footer
+pl###newsletter_link
+pl###newsletter_wrapper
+pl###newsletterBox
+pl###newsletterFooter
+pl###newsletterform
+pl###newsletterWidget
+pl###post-newsletter
+pl###side_widget_newsletter
+pl###site-scroll-top
+pl###st_news_letter_1
+pl###subReqForm
+pl###wp-subscribe
+pl##.acymailing_module
+pl##.b-footer_newsletter
+pl##.banner-newsletter
+pl##.block-newsletter
+pl##.block-simplenews
+pl##.block-subscribe
+pl##.block_newsletter
+pl##.box-newsletter
+pl##.boxNewsletter
+pl##.btn-newsletter
+pl##.c-newsletter
+pl##.col-newsletter-box
+pl##.column--newsletter
+pl##.f-newsletter
+pl##.fnls
+pl##.footer-block--newsletter
+pl##.footer-newsletter-box
+pl##.footer-newsletter-form
+pl##.footer-subscribe
+pl##.footer__newsletter
+pl##.footer_newsletter
+pl##.ft_newsletter
+pl##.g1-newsletter
+pl##.homepage-newsletter
+pl##.informator-rejestracja
+pl##.ins-v-newsletter-signup-form
+pl##.is-newsletter
+pl##.jetpack_subscription_widget
+pl##.link-newsletter
+pl##.m-newsletter
+pl##.module-newsletter
+pl##.ModulNewsletter
+pl##.newsFooter
+pl##.newsletter-area
+pl##.newsletter-banner
+pl##.newsletter-bar
+pl##.newsletter-block
+pl##.newsletter-bottom
+pl##.newsletter-btn
+pl##.newsletter-button
+pl##.newsletter-col
+pl##.newsletter-component
+pl##.newsletter-footer
+pl##.newsletter-inner
+pl##.newsletter-link
+pl##.newsletter-mod
+pl##.newsletter-module
+pl##.newsletter-rejestracja
+pl##.newsletter-section
+pl##.newsletter-sidebar
+pl##.newsletter-signup
+pl##.newsletter-subscribe
+pl##.newsletter-widget
+pl##.newsletter-wrap
+pl##.newsletter-wrapper
+pl##.newsletter__form
+pl##.newsletter__wrapper
+pl##.newsletter_bar
+pl##.newsletter_box
+pl##.newsletter_footer
+pl##.newsletter_form
+pl##.newsletter_wrapper
+pl##.newsletterbox
+pl##.newsletterCont
+pl##.newsletterContainer
+pl##.newsletterForm
+pl##.newsletterWidget
+pl##.optin-monster-api
+pl##.section--newsletter
+pl##.section-newsletter
+pl##.section__newsletter
+pl##.sidebar__newsletter
+pl##.single-post-newsletter
+pl##.site-footer__newsletter
+pl##.subscribe
+pl##.subscribe-newsletter
+pl##.tds-newsletter
+pl##.tnp-subscription
+pl##.wce_newsletter-form
+pl##.widget-newsletter
+pl##.widget_bs-newsletter-mailchimp
+pl##.widget_mailerlite_widget
+pl##.widget_mailpoet_form
+pl##.widget_newsletter
+pl##.widget_newsletterwidget
+pl##.widget_newsletterwidgeter_box
+pl##.widget_newsletterwidgetminimal
+pl##:not(#newsletter-overlay) #newsletter-box
+pl,~znak.com.pl##.newsletter-container
+!
+!
+!
+! Filtry specjalne
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
+!#include PAF_newsletters_supp.txt

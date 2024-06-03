@@ -1,0 +1,177 @@
+[Adblock Plus 2.0]
+! Title: Polish Privacy Filters
+! Oficjalne polskie filtry prywatności
+! Last modified: 13 September 2022
+! Expires: 2 days
+! Version: 20222091301
+! Support:
+!   Github >> https://github.com/olegwukr/polish-privacy-filters/issues
+! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+! Copyright (C) 2022
+! v.20222091301 aktualizacja: wt, 13 wrzesnia 2022, 07:15:00
+!
+!
+!-----------------------Integration of supplement lists for uBlock & AdGuard-----------------------!
+!#include adblock-suplement.txt
+!
+!
+!-----------------------Privacy filters block-----------------------!
+xgemius.js$script
+/gemius/*$script,image
+/js/gemius.js$script
+/gemiuslib.js$script
+||s-pt.ppstatic.pl/lib/detectors/*/*.js$script
+||squid.gazeta.pl/bdtrck/$subdocument
+||liquid.agora.pl/bdtrck/$subdocument
+||lib.onet.pl/*/adp/$image
+||p.typekit.net^
+/keen-tracking-*.js$script
+||darmowylicznik.pl$domain=~darmowylicznik.pl
+||hit-pool.upscore.com^
+=kropka-stats&
+||gazeta-msp.pl/img/1px.gif
+||trackly.eu^
+||meetrics.net^
+||back.marketing^
+||stats.aptelink.pl^
+||mobiklivestmox.pl^
+||stats.landingi.com^
+||5v.pl/stats.php
+||ceneo.pl/Content/js/partner/partnerTracker.js$script
+||ma.wp.pl^
+||dot.wp.pl^
+@@||dot.wp.pl/redir?SN=mailing
+/sfsites/auraAnalytics
+||tracker.skp.mbank.pl^
+||kariera-polecamy.neuca.pl^
+||privacy.polskapress.pl^
+!
+!
+!-----------------------Privacy filters 2-----------------------!
+!
+!
+!-----------------------Elements hide on movie-----------------------!
+##[href*=".hit.gemius.pl"]
+##A[href*="k.tradedoubler.com/click"]
+motorolasolutions.com##.tealiumMo2TriggerButton
+naekranie.pl###adocean-screening-layer > .inner-wrap
+naekranie.pl###adocean-screening-layer > .single-news
+poczta.interia.pl,film.interia.pl#@#[href*=".hit.gemius.pl"]
+!
+!
+!-----------------------Privacy filters domains-----------------------!
+/ajax/stats?$image
+/counter.php$domain=cdahd.co
+/gtm.js$script
+.pl/*_ac=kropka-
+/*dc_trk_aid$image,script
+/^(http|https):\/\/(.*)salesmanago\.(pl|com)\/(static|dynamic)\//$script,domain=~salesmanago.com|~salesmanago.pl
+/cmp/cmp.js$script
+||3filmy.com/matomo.js$script
+||iplsc.com/internal/inpl.copy/*/inpl.copy.js$domain=pl
+||0daib.pl^
+||adkontekst.pl$script,image
+||adkontekst.pl^
+||adnxs.com^
+||api.solvemedia.com/papi/action$popup
+||audienceinsights.net^$domain=~audienceinsights.net
+||back.marketing^$script,domain=~back.marketing
+||back.marketing^$third-party
+||behavioralengine.com^$domain=~behavioralengine.com
+||biznes2biznes.com/img/1px.gif
+||clickmeter.com^
+||clickcounters.com^
+||clickmatic.pl/$domain=~clickmatic.pl
+||clickserve.dartsearch.net^
+||coin-hive.com^
+||connect-lb.islay.tech^
+||counter.hitslink.com^
+||daib.pl^
+||emisja.adsearch.pl/$xmlhttprequest
+||freshmail.mx^$domain=~mail.mailnews.pl
+||g.cda.pl/*.php?pixel$image
+||gcontent.services.tvn.pl^
+||gemius.pl^$domain=~www.gemius.pl
+||histats.com^
+||hit.gemius.pl^
+||hitslink.interia.com.pl^
+||iwa3.hit.interia.pl:8443/collector
+||int.naekranie.pl/track/
+||int.sitestat.com^
+||intrack.pl^
+||kapi.dev$domain=~kapi.dev
+||kozaczek.pl/stats.php$xmlhttprequest
+||legenhit.com^
+||mis.em.nscontext.eu^
+||netmng.com^
+||nextclick.pl^$third-party
+||nsaudience.pl^
+||plugin.management^$third-party
+||quantserve.com^
+||revsci.net^
+||salesbee.pl^
+||salesbeehive.com^
+||smartclick.pl^$script
+||smpl.hit.ppdb.pl^
+!||sgqcvfjvr.onet.pl^
+||stat.4u.pl^
+||stat.dziennik.pl^
+||stat.onestat.com^
+||stat.pl^
+||stat24.com^
+||statcounter.com^
+||static.chartbeat.com^
+||stats-srv.rp.pl^
+||stats.asp24.pl/js/click.4.js$script
+||stats.goldenline.pl^
+||stg.wp.pl^$script
+||sylaba.net^
+||tealium.hs.llnwd.net/*/utui/js/*.js$script,domain=motorolasolutions.com
+||track.buybox.click^
+||track.reinvigorate.net^
+||tracker.twenga.pl^
+||tracking.affiliate44.com.pl^
+||ut.o2.pl^
+||vendimob.pl^
+||www.wp.pl/v*/log/view
+||x.sare25.com^
+||ymetrica.com^
+||clk.tradedoubler.com^
+||direct.money.pl/*/salechannel.php$popup
+||direct.money.pl/*/directtrack.php
+||api.useinsider.com^
+||unknow.now.sh^
+||devhub.pl^
+||licznik.telvinet.pl/cgi-bin/tcounter.cgi$image
+||snrbox.com^
+||snrcdn.net^
+||ps.polt.pl^
+||buybox.click^$script,domain=~buybox.click
+||cassini.efigence.com^
+||mautic.sfanews.pl^
+||asmsalesforce.pl^
+!||privacy-center.org^$domain=~gloswielkopolski.pl
+||getresponsepl.com/script/ga.js$script
+||wprost.pl/hits.php
+||traq.li^
+||abtshield.com^
+||track.trojmiasto.pl^
+||clk.leadexpert.pl^
+||px.leadexpert.pl^
+||hit.platform.streamextension.com^
+||caringcast.com^
+||cookies.neuca24.pl^
+||privacy.polskapress.pl^
+!
+!
+! Problem with ads 
+||wylecz.to/media/srv/$image
+!
+!
+! EasyPrivacy  
+@@||tv.wp.pl/do/*/dotn?sw=$image,~third-party,domain=tv.wp.pl
+@@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-download-tracker.js
+!
+!
+! Whitelist
+@@||adocean-pl.hit.gemius.pl^$xmlhttprequest,domain=www.ing.pl

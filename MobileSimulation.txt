@@ -1,0 +1,230 @@
+[Adblock Plus 2.0]
+! Title:  Mobile Simulation
+! Description: To be enabled when in browser's Mobile Simulation mode if I'm too lazy to use the mobile switch : 
+! https://github.com/uBlockOrigin/uBlock-issues/issues/183#issuecomment-1478381830
+! Last modified: Thu, 25 Jan 2024, 15:44 UTC+02
+! Version: 2024.01.25.1
+! Expires: 2 days
+! Aktualizacja: czw, 25 sty 2024, 15:44 UTC+02
+
+! !#if !env_mobile
+www.wp.pl#@#[src^="https://v.wpimg.pl/"]:not([alt]):upward(3)
+powiatowa.info#@#.latestnews:style(-moz-column-count: 3; -moz-column-gap: 20px; -webkit-column-count: 3; -webkit-column-gap: 20px; column-count: 3 ;column-gap: 20px;)
+msn.com#@#[data-aop="stripe.store.navigation_stripenavigation"]:upward(2)
+~mentor.duden.de,duden.de#@#+js(aeld, DOMContentLoaded, isMobile)
+news18.com#@#+js(aeld, scroll, getElementById)
+w3schools.com#@##breadcrumb + .trytopnav:style(top: 36px!important;)
+w3schools.com#@##tryitLeaderboard + .trytopnav:style(top: 0!important;)
+w3schools.com#@##tryitLeaderboard + #breadcrumb ~ #container:style(top: 84px!important;)
+w3schools.com#@##tryitLeaderboard + .trytopnav ~ #dragbar + #container:style(top: 48px!important;)
+lovetoknow.com#@#.below-ad-wrapper:style(margin-top: 51px !important;)
+screenhub.com.au#@#header#masthead:style(top: -110px !important;)
+web.bale.ai#@#+js(trusted-set, navigator.userAgent, Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML\, like Gecko) Chrome/119.0.0.0 Safari/537.36)
+/^http:\/\/[a-z]{5}\.[a-z]{5}\.com\/[a-z]{10}\.apk$/$doc,match-case,domain=com,badfilter
+||n.fcd.su^$all,badfilter
+reddit.com##xxx, body:not(.with-listing-chooser):style(overflow: visible !important; position: static !important;)
+reddit.com##xxx, body:style(pointer-events: auto !important; overflow: auto !important;)
+macaro-ni.jp##xxx, .l-main:style(padding-top: 13.4vw !important;)
+! !#endif
+! !  !#if env_mobile
+powiatowa.info##.latestnews:style(-moz-column-count: 2; -moz-column-gap: 20px; -webkit-column-count: 2; -webkit-column-gap: 20px; column-count: 2 ;column-gap: 20px;)
+quora.com##.top_slot
+fullxh.com,hamsterix.*,megaxh.com,movingxh.world,unlockxh4.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhday.com,xhday1.com,xhmoon5.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhtab2.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwide1.com,xhwide8.com##.thumb-list-mobile-item--widget
+fullxh.com,hamsterix.*,megaxh.com,movingxh.world,unlockxh4.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhday.com,xhday1.com,xhmoon5.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhtab2.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwide1.com,xhwide8.com##.no-ts-initiailize
+fullxh.com,hamsterix.*,megaxh.com,movingxh.world,unlockxh4.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhday.com,xhday1.com,xhmoon5.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhtab2.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwide1.com,xhwide8.com##.video-page__layout-ad
+fullxh.com,hamsterix.*,megaxh.com,movingxh.world,unlockxh4.com,xhadult2.com,xhadult3.com,xhadult4.com,xhadult5.com,xhamster.*,xhamster1.*,xhamster10.*,xhamster11.*,xhamster12.*,xhamster13.*,xhamster14.*,xhamster15.*,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.*,xhamster20.*,xhamster2.*,xhamster3.*,xhamster4.*,xhamster46.com,xhamster5.*,xhamster7.*,xhamster8.*,xhday.com,xhday1.com,xhmoon5.com,xhplanet1.com,xhplanet2.com,xhreal2.com,xhreal3.com,xhtab2.com,xhtree.com,xhvictory.com,xhwebsite.com,xhwebsite2.com,xhwide1.com,xhwide8.com##[class*="--"]:has(> [class*="cams-widget"])
+msn.com##.stripenav:has(.adslabel):upward(2)
+msn.com##cs-native-ad-card-no-hover
+msn.com##msft-article-card:not(.contentCard)
+knowyourmeme.com##.content-unit-refresh-wrapper
+pornid.*##.cs
+pornid.*##.spots-title
+pornid.*###fltd
+pornid.*###native_code
+||pornid.*/xdman2/$frame,1p
+hanime.tv##.htvad[style^="width: 300px; display: block"]
+hanime.tv##.htvnad1
+hanime.tv##.htvnad
+pcgames.de,t-online.de#@#+js(set, CustomEvent, noopFunc)
+@@||svonm.com/hd-main.js$script,domain=kicker.de|kino.de|videos.giga.de|video.spieletipps.de,badfilter
+viz.com##+js(nano-sib, , ,0)
+viz.com###metamodal-dfp-preroll
+viz.com###overlay
+@@||doubleclick.net^$script,xhr,domain=viz.com
+@@||googletagservices.com/tag/js/gpt.js$script,domain=viz.com
+||ads-v-darwin.hulustream.com^$media,3p
+||assetshuluimcom-a.akamaihd.net/prerolls/$media,3p
+sexvid.*,hdtube.porn###fltd-inner
+sexvid.*##.wrapper > .spot-holder
+sexvid.*##.cs
+sexvid.*##.thumb-adv
+sexvid.*##.container > .headline, .intro
+sexvid.*##.under-player.spot-holder > .spot
+hdtube.porn##.cards__item--adv.cards__item--big.cards__item.item
+hdtube.porn##.page__main > .container
+washingtonpost.com##div.mb-lg.mt-lg.pb-lg.pt-lg.bc-gray-lighter.bh.b.justify-center.items-center.flex.dn-hp-sm-to-mx
+washingtonpost.com###mobile-footer-ad-wrapper
+news18.com##+js(aeld, scroll, Mgid)
+news18.com##+js(aopr, getAdsScripts)
+news18.com##.ad-container
+news18.com##[class^="adv_placeholder_"]
+fandom.com##.ad-slot-wrapper
+hexupload.net##+js(acs, document.createElement, rAb)
+w3schools.com##.trytopnav:style(top: 0!important;)
+w3schools.com###tryitLeaderboard ~ #container:style(top: 48px!important;)
+hentaidude.com###ft-trig.ft-home, .vip-c
+hentaidude.com##.mobile-il:style(visibility: hidden !important; height: 1px !important)
+@@||onelinksmartscript.appsflyer.com/onelink-smart-script-latest.js$script,domain=timesnownews.com
+foreca.com##main > div > div > div > div[class]:matches-css(min-height:326px)
+foreca.com##main > div > div > div > div > div[class]:matches-css(min-height:326px)
+||m.youtube.com/*/ad.js$script
+||playtamil.*^$csp=default-src 'self' *.imgur.com
+||telugu-wap.in^$csp=default-src 'self'
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.XPromoBlockingModal
+!reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##xpromo-nsfw-blocking-modal
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.m-blurred:style(filter: none !important;)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##xpromo-new-nsfw-blocking-modal
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##[style^="filter:"]:style(filter: none !important;)
+flipkart.com##div[dir]:has-text(/^AD$/):upward(div[style])
+flipkart.com##div[style*="width:24px;height:20px;"]:has(img[src*="/promos/"]):upward(div[style])
+tvtv.ca,tvtv.us##.css-1wrjilj:style(margin-top: 0 !important; height: 2400px !important;)
+tvtv.ca,tvtv.us##.css-laxwha:style(height: 2400px !important;)
+tvtv.ca,tvtv.us##.css-3vwr5v:style(height: 2400px !important;)
+tvtv.ca,tvtv.us##.css-1j9nufa:style(height: 1560px !important;)
+www.wp.pl##div[class*=" "]:has(> div > div:first-child > div:first-child > a[href^="https://www.wp.pl/"]:first-child):matches-css(max-width: 420px):remove()
+www.wp.pl###glonews > div > div:has(> div > a[href^="https://www.wp.pl/"] > img[src^="https://v.wpimg.pl/"])
+www.wp.pl##.app-container > div:has(div + img[src^="https://v.wpimg.pl/"] + div:empty)
+www.wp.pl##div:has(> div > div > iframe[scrolling="no"][data-bunch][data-slot]:empty)
+www.wp.pl##div:has(> div:first-child:empty + div:empty)
+money.pl##div:has-text(> style:has-text(flex: 0 0 100%))
+wiadomosci.wp.pl##div:has(> div[data-native-adv] > a[href*="utm_"])
+web.bale.ai##+js(trusted-set, navigator.userAgent, Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML\, like Gecko) Chrome/119.0.6045.66 Mobile Safari/537.36)
+@@||tags.crwdcntrl.net^*/cc_af_ajax.js$script,domain=pigeons.biz
+||experience.tinypass.com/xbuilder/experience/execute$xhr,domain=fastcompany.com
+@@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
+@@||log000.goo.ne.jp/js/VLTraceDMD.js$domain=news.goo.ne.jp
+||cxense.com/cx.js$script,redirect-rule=noop.js,domain=itmedia.co.jp
+dailymail.co.uk##+js(trusted-set-cookie, AndroidExpiry, AndroidExpiry, 1year)
+instagram.com##.xZ2Xk:has-text(/App/)
+dailymail.co.uk##+js(aopr, confirm)
+quora.com##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+quora.com##[id$="_signup_wall_wrapper"]
+quora.com##.signup_wall_prevent_scroll #page_wrapper:style(filter: none !important)
+quora.com##.signup_wall_prevent_scroll:style(position: static !important)
+getnzlr.newzenler.com###zenPopupModal, .modal-backdrop
+getnzlr.newzenler.com##.modal-open:style(overflow: auto !important)
+blog.csdn.net##.btn_open_app_prompt_div
+blog.csdn.net##.btn_mod  
+blog.csdn.net##.readall_box
+blog.csdn.net##.feed-Sign-span  
+blog.csdn.net##.weixin-shadowbox
+blog.csdn.net##.article_content:style(overflow:auto !important;height:auto !important)
+jianshu.com##.call-app-btn
+jianshu.com##.collapse-tips
+jianshu.com##.download-app-guidance
+jianshu.com##.dt-open-bg[data-scene="leftBtn"]
+jianshu.com##body:style(overflow:auto !important)
+jianshu.com##.collapse-free-content:style(overflow:auto !important;height:auto !important)
+swiggy.com##[class^="styles_row"]:has([class^="styles_imgAd"])
+swiggy.com##a[id^="restaurant-card-"]:has([class^="styles_imgAd"])
+||hkemobility.gov.hk/js/AppDownload.
+hkemobility.gov.hk##+js(rc, smartbanner-show, html)
+*###credential_picker_iframe
+! *** filters/filters-mobile.txt ***
+!----- 2020 -----
+*##.ad-block
+*##.ad-center
+*##.ad-slot:not(.adsbox):not(.adsbygoogle)
+~lamire.jp,*##.ad-unit:not(.text-ad):not(.textads)
+*##.ad-wrapper
+*##.ad_container
+*##.ads-wrapper
+*##.dfp-ad
+*##.ezoic-ad
+*##.top-ad-container
+*##AMP-AD
+*##div[id*="ScriptRoot"]
+*##ins.adsbygoogle
+*##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+xnxx.com,xvideos.com###ad-header-mobile
+jprime.jp##.ad-overlay
+apkdone.com##.adplaceholder-top
+cyclehack.jp,gogo-miyagi.com,izuhack.akao-hotel.co.jp,nap-camp.com,runhack.jp,tsurihack.com,yamahack.com###ad-overlay
+m.washingtontimes.com##.mrf-adv__wrapper
+fortune.com##.amp-ad-wrapper
+fortune.com##.amp-ad-wrapper-dianomi
+wallpaperbetter.com##.lst_ads
+variety.com##.admz
+bakusai.com##.adSection
+gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se###ad_topScroller
+! player on clipx.tv
+xxxporns.org##.adBlock
+a-eroland.net,hhmanga.com,nyahentai.re##.__isboostReturnAd
+gamerant.com,howtogeek.com,makeuseof.com,screenrant.com,xda-developers.com##.adsninja-ad-zone
+!----- 2023 -----
+facebook.com##.m[data-status-bar-color] > .m[data-type="vscroller"] > .m[data-mcomponent="MContainer"]:is(.bg-s2, .bg-s3):has-text(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|赞助内容|広告|സ്‌പോൺസർ ചെയ്‌തത്)/) + .m:is(.bg-s2, .bg-s3):has(.native-text[style^="color"]):not(:has(.m:empty)):has(+ .m:is(.bg-s2, .bg-s3) .m[data-mcomponent="ImageArea"])
+facebook.com##.m[data-status-bar-color] > .m[data-type="vscroller"] > .m[data-mcomponent="MContainer"]:is(.bg-s2, .bg-s3):has-text(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|赞助内容|広告|സ്‌പോൺസർ ചെയ്‌തത്)/) + .m:is(.bg-s2, .bg-s3):has(.native-text[style^="color"]):not(:has(.m:empty)) + .m:is(.bg-s2, .bg-s3):has(.m[data-mcomponent="ImageArea"])
+facebook.com##.m[data-status-bar-color] > .m[data-type="vscroller"] > .m[data-mcomponent="MContainer"]:is(.bg-s2, .bg-s3):has-text(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|赞助内容|広告|സ്‌പോൺസർ ചെയ്‌തത്)/) + .m:is(.bg-s2, .bg-s3):has(.native-text[style^="color"]):not(:has(.m:empty)) + .m:is(.bg-s2, .bg-s3):has(.m[data-mcomponent="ImageArea"]) + .m:not(:has(.m:empty))
+facebook.com##.m[data-status-bar-color] > .m[data-type="vscroller"] > .m[data-mcomponent="MContainer"]:is(.bg-s2, .bg-s3):has-text(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|赞助内容|広告|സ്‌പോൺസർ ചെയ്‌തത്)/) + .m:is(.bg-s2, .bg-s3):has(.native-text[style^="color"]):not(:has(.m:empty)) + .m:is(.bg-s2, .bg-s3):has(.m[data-mcomponent="ImageArea"]) + .m:not(:has(.m:empty)) + .m:not(:has(.m:empty)):has(+ .m .m[data-mcomponent$="TextArea"]:empty)
+lookmovie2.to##div[class^="native-ad-"]
+m.timesofindia.com##[href*="app.goo.gl"]
+xda-developers.com##.ad-current
+forum.xda-developers.com###xdadevelopers_leaderboard_atf
+xe.com##.advertSlot
+investing.com##[class^="ad_ad-sticky_"]
+zdnet.com##.c-adDisplay_container
+zdnet.com##.c-adSkyBox
+nytimes.com###acm-wrapper
+*##.ads_all > .ads_w
+liquipedia.net##.mobile-sticky-ad
+liquipedia.net##body.mobile-sticky-ad-is-active:style(padding: 3.125rem 0 0 0 !important;)
+liquipedia.net##body.mobile-sticky-ad-is-active .main-nav:style(top: 0 !important;)
+liquipedia.net##body.mobile-sticky-ad-is-active .main-nav .brand-menu:style(top: 3.125rem !important;)
+m.dcinside.com,upload.dcinside.com##+js(set-cookie, _ga, OK, , reload, 1)
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=thedailybeast.com
+thedailybeast.com##^html > head > meta[name="template"]:not([content="cheat"]):upward(1) > script[src*="doubleclick"]
+! interstitial if views >= interstitial.counter
+pornhub.com##+js(set-cookie, views, 1)
+! Ignore generic cosmetic filters mitigation
+apnews.com##.SovrnAd
+zaim.net##.ad-footer
+avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###splashy-ad-container-top
+huffpost.com,huffingtonpost.jp##.advertisement-holder
+4wank.com###pause-ads
+javpop.link##[href^="https://rapidgator.net/article/premium/ref/"]
+senzuri.tube##.video-page__adv
+tr.ign.com##.articleBody:style(margin-top: 80px !important;)
+m.apkpure.com##.ad-adsense.js-ad-slot
+fxstreet.com##.fxs_stickyAd-mobile
+apkpure.com##.ad-box-auto
+*##.ez-video-wrap
+correiobraziliense.com.br##.publi
+poder360.com.br##.box-advertising
+4hu.tv##.wrap > #btmBox
+wunderground.com##.ad-wrap
+*###catapult-cookie-bar
+*###cmplz-cookiebanner-container
+*###cookie-law
+*###cookie-msg
+*###cookie-warning
+*###cookieBox
+*###cookie_alert
+*###cookie_notice
+*###cookiepolicy
+*###cookies-message
+*###gdpr-banner
+*###gdpr-cookie-message
+*###gdpr-cookie-notice
+*###moove_gdpr_cookie_info_bar
+*##.cookie-alert
+*##.cookie_content
+*##.cookie_notice
+*##.sqs-cookie-banner-v2
+~outdoor-broker.de,*###cookie-disclaimer
+~shimadzu.de,*###cookie_policy
+~fok.nl,*###cookieInfo
+~marokko.nl,*##.cookiealert
+~elrow.com,*##.cookies-popup
+~usmall.ru,*##.cookie-notify
+askubuntu.com,mathoverflow.net,serverfault.com,stackapps.com,stackexchange.com,stackoverflow.com,superuser.com##.js-consent-banner
+! !  !#endif
