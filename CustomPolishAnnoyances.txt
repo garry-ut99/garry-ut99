@@ -20,5 +20,3 @@
 !#include PAF_pop-ups.txt
 !#include PAF_push.txt
 !#include PAF_scrolling_videos.txt
-! testing trusted filter in imported list
-example.com##+js(trusted-rpnt, #text, This, OK)
