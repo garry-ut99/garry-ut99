@@ -1,10 +1,6 @@
 ! Codename: Other Elements - Supplement
-$domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
-/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=pl
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
-!www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row > #contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important)
-!www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -13,13 +9,18 @@ $domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##a[data-st-area="Header-back"]::before
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href*="wlacz-tryb-ciemny-"]:upward(2)
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href="undefined"]:has-text(Jak to działa?):upward(2)
-2x45.info,agmar.biz.pl,airdron-polska.pl,awans-bhp.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,ceneo.pl,cukierniabezowa.pl,devdesign.pl,domkorkowy.com,e-marcom.pl,e.ziebice.pl,fury-zone.com,genelab.pl,grajewo.net.pl,intibs.pl,ironsky.pl,komputerytriton.pl,kuradomowa.net,minecraft.net,mojaholandia.nl,mokrenosy.pl,narcyz.com.pl,nuty-zapachowe.pl,oliwowo.pl,otop.org.pl,paralympic.org.pl,passion.pl,piaseckigagala.pl,promodor.pl,psi.wroc.pl,rsrh-radom.pl,sanier.pl,sendbean.pl,softwaresystem.pl,techmlek.com.pl,timberwolf.pl,twojsezam.pl,wdrozenia-magento.pl,wsparciemagento.pl,www.consil.com.pl##div[id^="ascrail"]:not([id$="-hr"])
-2x45.info,agmar.biz.pl,airdron-polska.pl,awans-bhp.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,ceneo.pl,cukierniabezowa.pl,devdesign.pl,domkorkowy.com,e-marcom.pl,e.ziebice.pl,fury-zone.com,genelab.pl,grajewo.net.pl,intibs.pl,ironsky.pl,komputerytriton.pl,kuradomowa.net,minecraft.net,mojaholandia.nl,mokrenosy.pl,narcyz.com.pl,nuty-zapachowe.pl,oliwowo.pl,otop.org.pl,paralympic.org.pl,passion.pl,piaseckigagala.pl,promodor.pl,psi.wroc.pl,rsrh-radom.pl,sanier.pl,sendbean.pl,softwaresystem.pl,techmlek.com.pl,timberwolf.pl,twojsezam.pl,wdrozenia-magento.pl,wsparciemagento.pl,www.consil.com.pl##html[style*="overflow"]:style(overflow-y: auto !important)
 4mats.pl##html, body:style(overflow-y: auto !important)
-360studio.org,accounts.spotify.com,aidcom.eu,airly.org,amfetamina.promo,amooco.com,annopol.info,arhn.eu,aternos.org,brandbank.com,byvioleta.com,certyficate.it,colian.com,defence24.com,dotspice.com,dzwola.eu,e-polion.com,edrone.me,eempik.com,eneba.com,energetyka24.com,freshmail.io,giacomo-design.com,goodram.com,greasyfork.org,hdmecze.com,it-manuals.info,justtag.com,kcynia.info,lebork24.info,legalcakes.com,login.teamviewer.com,lubliniec.info,lwowecki.info,matbau.com,meczelive.tv,media-press.tv,mgr.farm,misterminit.eu,moje-ip.eu,mojedekoracje.eu,naturio.eu,niebieski.net,niezlasztuka.net,niezlomni.com,oddslivesport.com,odkrywamyzakryte.com,piroart.eu,~pl,pl.blogpascher.com,pl.canalplus.com,pl.fotolia.com,pl.genesis-zone.com,planeta.fm,play.google.com,pokrowce.net,poldruk.com,polski.fm,popeyespolska.com,przegladpiaseczynski.pl,psychologiazycia.com,ristorio.com,sempre.eu.com,skawina24.com,sledcza24.tv,sohost.com,stawiszynski.org,strajk.eu,strimeo.tv,stv.info,tarnobrzeg.info,telewizja-cyfrowa.com,themoviedb.org,thunderbird.net,trofeasportowe.com,vitella.ch,walerystasiak.com,webskill.group,whois.eurid.eu,wieteska.net,wlkp24.info,wodbud.eu,wphouse.eu,x-lander.com,zacznijprogramowac.net,zakpol.eu,zrobtosam24.eu##.grecaptcha-badge:lang(pl):style(visibility: hidden !important)
-allegro.pl###search-results [data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> button):style(position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important)
-allegro.pl###search-results [data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> div > button):style(position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important)
+360studio.org,accounts.spotify.com,aidcom.eu,airly.org,amfetamina.promo,amooco.com,annopol.info,arhn.eu,aternos.org,brandbank.com,byvioleta.com,certyficate.it,colian.com,defence24.com,dotspice.com,dzwola.eu,e-polion.com,edrone.me,empik.com,eneba.com,energetyka24.com,freshmail.io,giacomo-design.com,goodram.com,greasyfork.org,hdmecze.com,it-manuals.info,justtag.com,kcynia.info,lebork24.info,legalcakes.com,login.teamviewer.com,lubliniec.info,lwowecki.info,matbau.com,meczelive.tv,media-press.tv,mgr.farm,misterminit.eu,moje-ip.eu,mojedekoracje.eu,naturio.eu,niebieski.net,niezlasztuka.net,niezlomni.com,oddslivesport.com,odkrywamyzakryte.com,piroart.eu,~pl,pl.blogpascher.com,pl.canalplus.com,pl.fotolia.com,pl.genesis-zone.com,planeta.fm,play.google.com,poid.eu,pokrowce.net,poldruk.com,polski.fm,popeyespolska.com,przegladpiaseczynski.pl,psychologiazycia.com,ristorio.com,sempre.eu.com,skawina24.com,sledcza24.tv,sohost.com,stawiszynski.org,strajk.eu,strimeo.tv,stv.info,symbioza.it,tarnobrzeg.info,telewizja-cyfrowa.com,themoviedb.org,thunderbird.net,trofeasportowe.com,vitella.ch,walerystasiak.com,webskill.group,whois.eurid.eu,wieteska.net,wlkp24.info,wodbud.eu,wphouse.eu,x-lander.com,zacznijprogramowac.net,zakpol.eu,zrobtosam24.eu##.grecaptcha-badge:lang(pl):style(visibility: hidden !important)
+agmar.biz.pl,airdron-polska.pl,awans-bhp.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,ceneo.pl,cukierniabezowa.pl,devdesign.pl,domkorkowy.com,e-marcom.pl,e.ziebice.pl,fury-zone.com,genelab.pl,grajewo.net.pl,intibs.pl,ironsky.pl,komputerytriton.pl,kuradomowa.net,minecraft.net,mojaholandia.nl,mokrenosy.pl,narcyz.com.pl,nuty-zapachowe.pl,oliwowo.pl,otop.org.pl,paralympic.org.pl,passion.pl,piaseckigagala.pl,promodor.pl,psi.wroc.pl,rsrh-radom.pl,sanier.pl,sendbean.pl,softwaresystem.pl,techmlek.com.pl,timberwolf.pl,twojsezam.pl,wdrozenia-magento.pl,wsparciemagento.pl,www.consil.com.pl##div[id^="ascrail"]:not([id$="-hr"])
+agmar.biz.pl,airdron-polska.pl,awans-bhp.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,ceneo.pl,cukierniabezowa.pl,devdesign.pl,domkorkowy.com,e-marcom.pl,e.ziebice.pl,fury-zone.com,genelab.pl,grajewo.net.pl,intibs.pl,ironsky.pl,komputerytriton.pl,kuradomowa.net,minecraft.net,mojaholandia.nl,mokrenosy.pl,narcyz.com.pl,nuty-zapachowe.pl,oliwowo.pl,otop.org.pl,paralympic.org.pl,passion.pl,piaseckigagala.pl,promodor.pl,psi.wroc.pl,rsrh-radom.pl,sanier.pl,sendbean.pl,softwaresystem.pl,techmlek.com.pl,timberwolf.pl,twojsezam.pl,wdrozenia-magento.pl,wsparciemagento.pl,www.consil.com.pl##html[style*="overflow"]:style(overflow-y: auto !important)
+airalo.com##+js(set-cookie, smartbanner_exited, 1)
+airalo.com##body > .smartbanner
+allegro.pl###search-results [data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> button):style(position: absolute !important; z-index: 2000 !important; top: 240px !important; width: auto !important)
+allegro.pl###search-results [data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> div > button):style(position: absolute !important; z-index: 2000 !important; top: 240px !important; width: auto !important)
+allegro.pl###search-results article + div:has(> button:has-text(SORTUJ BEZ DOPASOWANIA)):style(position: absolute !important; z-index: 2000 !important; top: 240px !important; width: auto !important)
+allegro.pl###search-results article + div:has(> div > button:has-text(SORTUJ BEZ DOPASOWANIA)):style(position: absolute !important; z-index: 2000 !important; top: 240px !important; width: auto !important)
 allegro.pl###search-results:has([data-analytics-view-label="BETTER_SORT_APPLIED"]):style(margin-top: 90px !important)
+allegro.pl###search-results:has(button:has-text(SORTUJ BEZ DOPASOWANIA)):style(margin-top: 90px !important)
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,sklep-presto.pl,ubieramy.pl##.app-info > header:style(padding-top: 0 !important)
 amso.pl###menu_categories a[title]:style(animation: none !important)
 aptekaolmed.pl###ulixes-paralaxa .ulixes-paralaxa
@@ -34,6 +35,7 @@ budujemydom.pl##.magazyn-label .m-okladka:style(bottom: 0 !important)
 budujemydom.pl##.magazyn-label:style(position:static !important)
 build.opensuse.org##.flash-and-announcement:style(position: static !important; z-index: 10 !important)
 canva.com##section[class] ~ div[class] > div[class] > div[class]:matches-css(position: sticky)
+castorama.pl##+js(set-local-storage-item, tool-tip-header-visibility, false)
 cda.pl##a[href*="dla-dzieci"] span[style]:remove-attr(style)
 cdn.ampproject.org,reddit.com##.XPromoPill
 cdn.ampproject.org,reddit.com##body.scroll-disabled:style(overflow: auto !important; position: static !important)
@@ -75,7 +77,8 @@ grupa-icea.pl##.icea-pulse:style(animation: none !important)
 hejto.pl##header > .fixed.bottom-0
 hondanews.eu###body > .vertical.simplebar-track
 hondanews.eu###body[data-simplebar]:style(overflow-x: hidden; overflow-y: auto !important)
-interia.pl,pomponik.pl##.embed-citation-text > span:style(opacity: 1 !important)
+interia.pl,pomponik.pl##[class*="embed"] > span[style*="opacity"]:style(opacity: 1 !important)
+irfanview.com##.mirror-icon:style(background-position-y: -150px !important;)
 ithardware.pl##+js(ra, href, a.authorlink[href="#"])
 jarmarktumski.plock.eu##.gt3_preloader::after
 jarmarktumski.plock.eu##body > .op0:style(opacity: 1 !important)
@@ -84,6 +87,8 @@ kawro.pl##.infobar-dismiss:style(position: relative !important; bottom: 70px !im
 klonowypark.pl###right_info2:style(height: auto !important)
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position: static !important)
 komp-net.eu###toTop
+lubimyczytac.pl##.banner-mobile-app
+lubimyczytac.pl##.banner-mobile-app:not(.is-off) ~ .header:style(top: 0 !important; margin-bottom: 0 !important)
 m.box.com##.app-banner-enabled div.page:style(top: 0 !important)
 m.box.com##.mobile-app-banner
 m.pl.aliexpress.com##body.smartbanner-placeholder[style]:style(padding-top: 0 !important)
@@ -103,11 +108,14 @@ muzykotekaszkolna.pl##.filter-choise:style(background-color: rgb(220,0,0) !impor
 mycenter.pl##.top_cart:style(position: absolute !important; top: -35px !important)
 nabea.pl###blog-item a:not(:has(img)):style(text-decoration: underline !important)
 narcyz.com.pl##div[style^="overflow: hidden;"]:style(overflow: auto !important)
+nbsklep.pl##+js(set-cookie, mobile_application_installed, false)
 ofeminin.pl##.quote:style(transform: unset !important; rotate: unset !important)
 oferty.dsautomobiles.pl,oferty.peugeot.pl##.row > .formularz:style(position: static !important)
 onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important)
 onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"]
 onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !important)
+onlygames.io##._show-top-banner .header--comp, ._show-top-banner .mobile--menu:style(top: 0 !important)
+onlygames.io##.mobile--banner
 oohmagazine.pl##.cart-tab:has(> *:matches-css(display: none))
 pecetowicz.pl###elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)
 pecetowicz.pl##body:has(#elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)) .ipsNotificationGuest:has-text(1)
@@ -116,11 +124,12 @@ photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-im
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"]:style(height: 225px !important)
 pl##.CodeMirror-search-label ~ input.CodeMirror-search-field[style]:style(width: 60% !important)
 pl##.cTopicPostArea .cGuestTeaser:upward(.cTopicPostArea)
-pl##.smartbanner
+pl##.header.header--smart-banner-visible:remove-class(header--smart-banner-visible)
+pl##.smartbanner:not(body):not(html)
+pl##.with-smartbanner .external-header:style(top: 0 !important)
+pl##.with-smartbanner .top-band:style(margin-top: 0 !important)
+pl##body.smartbanner #smartbanner
 pl##html[data-smartbanner-original-margin-top^="0"][style]:style(margin-top: 0 !important)
-pl.everli.com###smartbanner
-pl.everli.com##.with-smartbanner .external-header:style(top: 0 !important)
-pl.everli.com##.with-smartbanner .top-band:style(margin-top: 0 !important)
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body > style:last-child:has-text(/\._[a-z0-9]{12}/):remove()
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
 poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"] div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):style(opacity: 0.3 !important)
@@ -130,8 +139,6 @@ portalpogrzebowy.pl##.center ~ .baner:style(margin-right: 0 !important)
 posnania.eu##.customScroll__bar
 proline.pl##blockquote:style(transform: unset !important; rotate: unset !important)
 przepisy.pl##.animation:style(animation: none !important)
-pyszne.pl###smartbnr.smartbnr
-pyszne.pl##.activesmartbanner .userpanel-tabs.show, .activesmartbanner .userpanel .modal-wrapper, .activesmartbanner header:style(margin-top: 0 !important)
 pytanienasniadanie.tvp.pl##div.bg-aplha.container:first-of-type > .row:style(padding-bottom: 20px)
 radio17.pl##footer.page-footer ~ .sidebar-container:style(position: absolute !important)
 radio17.pl#@#.sidebar-container
@@ -145,8 +152,7 @@ strefakodera.pl##html:style(overflow-x: unset !important)
 tabletowo.pl##.bwswitch:style(position: absolute !important)
 tablety.pl##.image-ticker-news:style(left: 0 !important)
 teatr.bedzin.pl##html.intro-is-opened, html.intro-is-opened body.intro-is-opened:style(overflow-y: auto !important)
-technos-online.pl###promoted > div ~ ul:style(max-height: 285px; overflow: scroll; scrollbar-width: auto)
-technos-online.pl###promoted::after:style(content: "(przewijaj aby zobaczyć więcej)"; font-style: italic; font-style: oblique)
+tecno-store.pl###shop-hcaptcha-badge-container:style(visibility: hidden !important)
 teletoonplus.pl##.drizzle_l:style(z-index: 0 !important)
 tvn24.pl##+js(json-prune, options.auto_play)
 tysol.pl##.section_name.uppercase:style(font-size: 18pt !important)
@@ -157,12 +163,14 @@ web.archive.org##dl > .date:style(width: auto !important; height: auto !importan
 web.archive.org##dl:has(> .date):style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important)
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important)
-www.instalki.pl##:matches-media((max-width: 500px)) .blog .type-post .entry-header .entry-details, .archive .type-post .entry-header .entry-details:style(display: inline !important)
 www.instalki.pl##:matches-media((max-width: 500px)) .post-categories, .post-categories li:style(background: none !important; padding: 0; margin: 3px -5px; display: inline-flex)
+www.instalki.pl##:matches-media((max-width: 500px)) :is(.blog, .archive) .type-post .entry-header .entry-details .sponsored-label
+www.instalki.pl##:matches-media((max-width: 500px)) :is(.blog, .archive) .type-post .entry-header .entry-details :style(display: inline !important)
 www.youtube.com##:matches-media((min-width: 1500px) and (max-width: 2000px)) [page-subtype="home"] ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important)
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row, ytd-browse[page-subtype="home"] #contents.ytd-rich-grid-row:style(display:contents !important)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important)
+zamowienia.lajtmobile.pl##.StepTwo__content--containers .el-form-item__content .el-input__inner:style(text-transform: unset !important)
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
 zapytaj.onet.pl##.profile-actions > .music
 znaki.edu.pl##+js(aeld, keydown, ssc_keydown)
@@ -177,6 +185,9 @@ karachan.org##^script:not([src]):min-text-length(100):has-text(/style.*xD/)
 komputerswiat.pl##^#ks_breaking_news
 !#endif
 !#if !env_firefox
+! permissions=autoplay=()|unsized-media=()
+|http*://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
+||dailymotion.com^$permissions=autoplay=()|unsized-media=()
 cs-harnas.pl,gearbest.com,jaguar.pl,kwit.pl,progrupa.com,przeswietl.pl,seniorka-z-plecakiem.pl,sparta.com.pl,start.me##body::-webkit-scrollbar:style(all: initial !important)
 czestochowskie24.pl,farmacja.net##body::-webkit-scrollbar, div::-webkit-scrollbar:style(all: initial !important)
 farmacja.net##:style(background-color: gray !important)
@@ -201,25 +212,28 @@ youtube.com##html:not([dark]) #guide-inner-content:style(scrollbar-color: #000 #
 youtube.com##html[dark] #guide-inner-content:style(scrollbar-color: #999 #9990 !important)
 !#endif
 !#if !ext_ublock
-!allegro.pl#$?#@media (min-width: 1200px) { #search-results div[data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> button) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
-!allegro.pl#$?#@media (min-width: 1200px) { #search-results:has(div[data-analytics-view-label="BETTER_SORT_APPLIED"]) { margin-top: 90px !important } }
-!allegro.pl#$?#@media all and (min-width: 1200px) { #search-results div[data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> div > button) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
 #$#.buttonHomepage { remove: true; }
 #$#.containerHomepage { remove: true; }
 #@#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
 #@?#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
+cda.pl#@#a[href*="dla-dzieci"] span[style]:remove-attr(style)
+embed.reddit.com#@#a:has(shreddit-player):remove-attr(href)
+embed.reddit.com#@#shreddit-player:remove-attr(autoplay)
 karachan.org$$script[wildcard="style*xD"][min-length="100"]
-komputerswiat.pl$$#ks_breaking_news
+komputerswiat.pl$$[id="ks_breaking_news"]
 pacjent.gov.pl#@#:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
+pl#@#.header.header--smart-banner-visible:remove-class(header--smart-banner-visible)
+poczta.o2.pl,poczta.wp.pl#@#:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
 wbgroup.pl#@#:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important)
-www.instalki.pl##@media (max-width: 500px) { .blog .type-post .entry-header .entry-details, .archive .type-post .entry-header .entry-details { display: inline !important } }
-www.instalki.pl##@media (max-width: 500px) { .post-categories, .post-categories li:style(background: none !important; padding: 0; margin: 3px -5px; display: inline-flex } }
+www.instalki.pl#$#@media (max-width: 500px) { .post-categories, .post-categories li { background: none !important; padding: 0; margin: 3px -5px; display: inline-flex } }
+www.instalki.pl#$#@media (max-width: 500px) { :is(.blog, .archive) .type-post .entry-header .entry-details .sponsored-label { display: none !important } }
+www.instalki.pl#$#@media (max-width: 500px) { :is(.blog, .archive) .type-post .entry-header .entry-details { display: inline !important } }
 www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) > #contents:first-child { max-width: unset !important; }
 www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) ytd-rich-grid-media { max-width: unset !important; }
 www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) { --ytd-rich-grid-items-per-row: 1 !important; }
 !#endif
 !#if env_mobile
-twitter.com###layers span:has-text(/^Korzystanie z Twittera za pomocą aplikacji jest przyjemniejsze$/):upward(5)
+lajtmobile.pl#@#.grecaptcha-badge:style(visibility: hidden !important)
 !#endif
 !
 !

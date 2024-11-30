@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sun, 17 Dec 2023, 21:13 UTC+01:00
-! Version: 2023.12.17.0
+! Last modified: Tue, 15 Oct 2024, 17:37 UTC+02:00
+! Version: 2024.10.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 17 gru 2023, 21:13 UTC+01:00
+! Aktualizacja: wto, 15 paź 2024, 17:37 UTC+02:00
 !
 !
 !
@@ -33,7 +33,7 @@
 /snr-sw.js$script,domain=mediaexpert.pl|pl.kruk.eu
 /sw-push.js$script,domain=m.zapytaj.onet.pl|medonet.pl
 /sw-rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
-/sw.js$domain=adaware.com|kinoseans.pl|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl
+/sw.js$domain=adaware.com|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl
 @@/sw.js$domain=youtube.com
 ||cdn.*.com/push_app.js$script,domain=2conv.com|flv2mp3.by|flvto.biz
 ||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
@@ -43,7 +43,7 @@
 ||chamsko.pl/js/push-notifications.js
 ||konin24.info/tmpl/js/push.min.js
 ||meczlive.pl/webpush.js$script
-||ocdn.eu/ucs/static/*/build/js/pushModule.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|vod.pl
+||ocdn.eu/ucs/static/*/build/js/pushModule.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl
 ||onet.pl/push-mob-service-worker*.js$script,domain=onet.pl
 ||onet.pl/push-service-worker*.js$script,domain=onet.pl
 ||push.domodi.pl/pushweb/assets/init.js
@@ -62,7 +62,7 @@ andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
 aurum-optics.pl,panwybierak.pl###yl__prompt, .yl__prompt
 autocentrum.pl##.web-push-box
-bandi.pl,pakolorente.com,quiosque.pl,termedia.pl,toys4boys.pl,wrp.pl,znak.com.pl##.gr-visual-prompt
+bandi.pl,pakolorente.com,quiosque.pl,skalnik.pl,termedia.pl,toys4boys.pl,wrp.pl,znak.com.pl##.gr-visual-prompt
 best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div:nth-last-of-type(-n+3):nth-last-child(-n+3) > div:first-child:-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
 bnpparibas.pl,eneba.com,estyl.pl,semahead.pl###ue_push_dialog
 boardpc.pl,forum.dobreprogramy.pl,forum.manjaro.pl##.alert-info.alert.consent_banner
@@ -79,6 +79,7 @@ eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-banner
 folk24.pl###pushFooter
 gazetkonosz.pl##.floating-dialog
 homebook.pl###qgraphFakePromptContainer
+investmap.pl#?#main > div > div:-abp-has(> a[href*="opinie"] + button) + div:-abp-contains(obserwuj)
 kupbilecik.pl###btn-notification
 m.zapytaj.onet.pl,zapytaj.onet.pl##.notification-widget
 mbank.pl###push-message
@@ -105,11 +106,11 @@ sprzedajemy.pl###webPushWidget
 termedia.pl##body #ue_popups > #ue_push_dialog
 travelplanet.pl##.fcx-push-modal
 tunelefoliowe.eu##.wce_has-label.wce_popup-consolidator-trigger
-tvn24.pl##.__ipPerunElement[style*="position"]
 tygodniowa.pl##iframe[style*="fixed"]:not([src])
 um.gorzow.pl,wielen.pl,wronki.pl###js__webpushBell
 wazcar.pl###push-notification-button
 wnp.pl##amp-web-push-widget
+www.interia.pl##header.page-header:has(#header_push_list .push-list-lock ~ .push-list-ul:empty) nav .push-number:only-child:not(:has(> *))
 zapytaj.onet.pl##.push-notification-box
 zdrowie.pap.pl##section ~ span[onclick="window.scrollTo(0, 0);"]
 zegarkiipasja.pl##.fcx-push-bubble-container

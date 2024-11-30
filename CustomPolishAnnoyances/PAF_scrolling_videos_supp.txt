@@ -1,11 +1,13 @@
 ! Codename: Scrolling Videos - Supplement
-bezpiecznystrazak.pl##+js(ra, autoplay, video)
+!elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-video:not(.ediplayer-ui-fullscreen) .ediplayer-aspect-padding:style(padding-top: 100% !important)
+bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], asap)
+bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], complete)
+bezpiecznystrazak.pl##video[autoplay]:remove-attr(autoplay)
 businessinsider.com.pl,fakt.pl,medonet.pl,onet.pl,plejada.pl,~poczta.onet.pl##+js(set, Object.prototype.isFloatingEnabled, false)
 dziennikzachodni.pl,echodnia.eu,naszemiasto.pl,nowiny24.pl,nto.pl##+js(aeld, scroll, xlinkEvent)
 elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##+js(aeld, scroll, d.stopPropagation)
 elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
 elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important)
-elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-video:not(.ediplayer-ui-fullscreen) .ediplayer-aspect-padding:style(padding-top: 100% !important)
 eurosport.tvn24.pl##+js(norafif, toggleFloatingClass)
 forsal.pl##+js(set, parseFloat, noopFunc)
 gamerweb.pl##.zox-video-embed-wrap .zox-vid-fixed:style(position: relative !important)
@@ -21,11 +23,15 @@ meczyki.pl##.vi-stories-social-share-button
 medianarodowe.com,parkiet.com,rp.pl##.component-tv__video:style(position: static !important)
 medianarodowe.com,parkiet.com,rp.pl##.linear-tv__iframe:style(position: static !important)
 onet.pl,~poczta.onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important)
+pl###player-container .veedmo-video-player .vjs-layout-small > *:not(meta):style(visibility: hidden !important)
+pl###player-container .veedmo-video-player .vjs-layout-small:style(visibility: hidden !important)
+przegladsportowy.onet.p###videoPlayer.sticky[style*="top"]:remove-attr(style)
 sport.interia.pl,wydarzenia.interia.pl##.vjs-fixedmonitor-wrapper-fixed:not(.vjs-fixedmonitor-fixed-slide-down):has(+ .vjs-fixedmonitor-placeholder.visible)
 sport.interia.pl,wydarzenia.interia.pl#@#div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important)
 sport.interia.pl,wydarzenia.interia.pl#@#div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 sportowefakty.wp.pl###randomplayer[class*="fixed"], #randomplayer[class*="fixed"] *:style(visibility: hidden !important)
 store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important)
+store.steampowered.com##div[data-featuretarget="broadcast-embed"] div:matches-css(position: fixed)
 topagrar.pl##+js(aeld, scroll, [native code])
 wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important)
 !#if !env_mobile
@@ -36,6 +42,11 @@ wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !import
 !#endif
 !#if !cap_user_stylesheet
 ~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .sticky[id^="Player"]:not(.floating), .randomplayer--floating[id*="player"] > div[class*="wrap"]:style(visibility: hidden !important)
+!#endif
+!#if !env_firefox
+! permissions=autoplay=()|unsized-media=()
+|http*://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
+||dailymotion.com^$permissions=autoplay=()|unsized-media=()
 !#endif
 !#if !ext_ublock
 infozdrowie24.pl#$#.miniplayer { position: absolute !important; transition: unset !important; }

@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sat, 25 Nov 2023, 20:30 UTC+01:00
-! Version: 2023.11.25.0
+! Last modified: Sun, 10 Nov 2024, 23:16 UTC+01:00
+! Version: 2024.11.10.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 25 lis 2023, 20:30 UTC+01:00
+! Aktualizacja: nie, 10 lis 2024, 23:16 UTC+01:00
 !
 !
 !
@@ -22,8 +22,7 @@
 ||ppstatic.pl^*/article/sticky-video.js
 ||ppstatic.pl^*/article/top-sticky-video-mobile.js
 ||ppstatic.pl^*/plywajace_wideo.js
-!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
-!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
+!meczyki.pl##.veedmo-video.video-js.veedmo-ad-outstream-inslide
 ~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .sticky[id^="Player"]:not(.floating), .randomplayer--floating[id*="player"] > div[class*="wrap"]
 16bit.pl##.crunchify-top
 35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
@@ -33,6 +32,7 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.
 beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##.vjs-minimized .video-js
 beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##div.sticky-container_sticky video-js
 bezpiecznystrazak.pl##.video_zminimalizowane
+businessinsider.com.pl##.sticky.article_video-container
 codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 crazypig.pl##.wengdo-scroll-to-top
 czasdzieci.pl##.pushNews[class*="section"]
@@ -40,16 +40,14 @@ deccoria.pl##.dc-floatingvideo__wrapper[class*="fixed"]
 dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.videoScroll, .closeVideoBtn
 elle.pl,focus.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
-eurosport.tvn24.pl##div.nuvi-video-wrapper.floating
 eurosport.tvn24.pl##div.picture-in-picture.fixed, div[data-testid="player-pip-active"]
 filmweb.pl##.isPinned.videoPlayer > .videoPlayer__container
+gamereactor.pl##.playersmall
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
 inwestycje.pl,petronews.pl##.jeg_feature_video_wrapper .floating
 kresy.pl###kresyTVPlayer_wrapper
-kronikatygodnia.pl##.right.backtotop-btn
-meczyki.pl##.veedmo-video.video-js.veedmo-ad-outstream-inslide
 medianarodowe.com,sadeczanin.info,transfery.info##div.miniature.onnetworkplayercontainer > div.alwplayer
 medianarodowe.com,sadeczanin.info,transfery.info##div.onnetworkplayercontainer > div.miniplayer
 medonet.pl,onet.pl,~www.onet.pl##.active.player-float-wrap > .player-float-container
@@ -61,7 +59,6 @@ ortograf.pl##.vj-fixed
 pl.blogpascher.com###site-scroll-top
 playgwent.com##.c-big-stream__video--sticked.c-big-stream__video
 pogoda.interia.pl##.inpl-tout-sticky.body__common-header--fixed .vjs-fixedmonitor-wrapper-fixed
-poradnikzdrowie.pl##div.sticky-container_sticky.sticky-container__wrap > video-js[id^="video-player"]
 przeambitni.pl##.mvp-vid-fixed
 punkt.media##div[id^="em"][style*="position: fixed;"]
 radio.katowice.pl##div[id^="sidebar"].fixed-player
@@ -70,10 +67,12 @@ softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
 telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvrep-live-box
 telewizjatvt.pl#?#div[id^="elementor-popup-modal-"]:-abp-has(iframe[src*="/player/"])
 topagrar.pl,tygodnik-rolniczy.pl##.vast-player__thumbnail[style*="top:"]
+trojmiasto.pl##.vjs-trojmiasto-mini.video-js
 trojmiasto.pl,trojmiasto.tv##div[id^="video"].vjs-mini
 tvn24.pl##.mainContainer .hideVideoPlayer .stuck--desktop, .mainContainer .hideVideoPlayer .stuck--wide-tablet
 tvn24.pl##.nuvi-player div.floating.floatable, .videoPlayer.stuck--top
 tvn.pl##.videoPlayerFloatEnabled.videoPlayerFloat.videoPlayer
+tvn.pl,tvn24.pl##.floating.VideoContainer div[data-scope="nuvi-placeholder"] ~ div[data-scope="nuvi-player"]
 tvn.pl,tvn24.pl##div[class*="player"] .floating_placeholder ~ .floating
 tvp.info##.mini-player-container
 wamiz.pl##div[class*="sticked"][class*="container"]
@@ -84,9 +83,9 @@ wrc.net.pl##.sticky-video.sticky.is-stuck
 !
 !
 ! Ogólne filtry
-com,eu,info,pl,to###onNetworkContainer .miniature [style*="fixed"]
-com,eu,info,pl,to##.o-video-box__player .miniature [style*="fixed"]
-com,eu,info,pl,to##div[id*="ONNP"].miniature div[id*="ONNP"][style*="fixed"]
+com,eu,info,pl,to,tv###onNetworkContainer .miniature [style*="fixed"]
+com,eu,info,pl,to,tv##.o-video-box__player .miniature [style*="fixed"]
+com,eu,info,pl,to,tv##div[id*="ONNP"].miniature div[id*="ONNP"][style*="fixed"]
 pl##.videoPlayer.is--persistent:not(.ended)
 pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 !
